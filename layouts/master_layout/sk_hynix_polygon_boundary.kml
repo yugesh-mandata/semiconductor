@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
+<Document id="1shfAqjVHTcQ-v0ucrNXWm6puYITTieNJ">
+	<ex:extension>base64;Co4BCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAAGgIIAA</ex:extension>
+	<name>sk_hynix</name>
+	<Schema name="__managed_schema" id="__managed_schema">
+		<SimpleField type="string" name="COL5F2C60068273EEB8">
+			<displayName>Zone code</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C600682A63E86">
+			<displayName>Production unit code</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C600682798BF8">
+			<displayName>Production unit name</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C60068269AD01">
+			<displayName>Campus code</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C600682021B80">
+			<displayName>Production unit type</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C6006822E9DBE">
+			<displayName>Primary associated product</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C600682617270">
+			<displayName>Location confidence</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="COL5F2C6006823C4E8C">
+			<displayName>Zone type</displayName>
+		</SimpleField>
+	</Schema>
+	<gx:CascadingStyle kml:id="__managed_style_46331CE621424FC9F477_highlight">
+		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_46331CE621424FC9F477">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_46331CE621424FC9F477_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_46331CE621424FC9F477_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_301B830F8A424FC9F477_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_M16</td></tr><tr><td><b>Production unit name</b></td><td>M16</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C09CE86D5424FC9F477_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd65b8e</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d65b8e</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_46331CE621424FC9F477_normal">
+		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2A10400797424FC9F477_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2A10400797424FC9F477_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_06BD00BEE0424FD36DD8_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>669f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0870CAAD13424FC9F477">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0870CAAD13424FC9F477_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0870CAAD13424FC9F477_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_2A10400797424FC9F477">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2A10400797424FC9F477_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2A10400797424FC9F477_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_072FDE0A50424FC9F478_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_EX_01</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_P&amp;T6</td></tr><tr><td><b>Production unit name</b></td><td>P&amp;T6</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Primary associated product</b></td><td>HBM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_072FDE0A50424FC9F478_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_EX_01</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_P&amp;T6</td></tr><tr><td><b>Production unit name</b></td><td>P&amp;T6</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Primary associated product</b></td><td>HBM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00DBF349A7424FCE37FC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_00DBF349A7424FCE37FC_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_00DBF349A7424FCE37FC_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_072FDE0A50424FC9F478">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_072FDE0A50424FC9F478_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_072FDE0A50424FC9F478_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_00DBF349A7424FCE37FC_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09739EE5B9424FC9F476">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0870CAAD13424FC9F477_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_09739EE5B9424FC9F476_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_1C09CE86D5424FC9F477">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C09CE86D5424FC9F477_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1C09CE86D5424FC9F477_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1C09CE86D5424FC9F477_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd65b8e</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d65b8e</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0870CAAD13424FC9F477_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06BD00BEE0424FD36DD8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_06BD00BEE0424FD36DD8_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_06BD00BEE0424FD36DD8_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_301B830F8A424FC9F477_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_M16</td></tr><tr><td><b>Production unit name</b></td><td>M16</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_06BD00BEE0424FD36DD8_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>669f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_09739EE5B9424FC9F476_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_00DBF349A7424FCE37FC_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd86f2e</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>66d86f2e</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_301B830F8A424FC9F477">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_301B830F8A424FC9F477_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_301B830F8A424FC9F477_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="5F2C60018E000001">
+		<ex:extension>base64;GgA</ex:extension>
+		<name>semiconductor_draft_v1</name>
+		<open>1</open>
+		<description>Converted from semiconductor_draft_v1.geojson (34 zone polygons). Colour by zone type: OP blue, EX orange, RD purple.</description>
+		<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+		<Folder id="5F2C60018F000002">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SKH_ICH — SK hynix Icheon</name>
+			<open>1</open>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F000003">
+				<name>SKH_ICH_OP_03 · M16</name>
+				<styleUrl>#__managed_style_301B830F8A424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_ICH_OP_03</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_ICH_M16</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">M16</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_ICH</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4841047,37.2500254,0 127.487888,37.250039,0 127.487873,37.251528,0 127.4841022,37.2515,0 127.4841047,37.2500254,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000004">
+				<name>SKH_ICH_OP_02 · M14</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_02</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_M14</td></tr><tr><td><b>Production unit name</b></td><td>M14</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_06BD00BEE0424FD36DD8</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_ICH_OP_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_ICH_M14</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">M14</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_ICH</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4796695,37.2497298,0 127.4797232,37.2466564,0 127.4813396,37.2466588,0 127.481358,37.249322,0 127.481362,37.249743,0 127.4796695,37.2497298,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000005">
+				<name>SKH_ICH_OP_01 · ???</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_01</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_???</td></tr><tr><td><b>Production unit name</b></td><td>???</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit type</b></td><td>UNKNOWN</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>RD</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_1C09CE86D5424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_ICH_OP_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_ICH_???</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">???</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_ICH</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">RD</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4827095,37.2496922,0 127.4827136,37.2483967,0 127.4850077,37.2483955,0 127.484998,37.2494433,0 127.4847748,37.2494416,0 127.4847676,37.2496922,0 127.4827095,37.2496922,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000006">
+				<name>SKH_ICH_OP_01 · M10</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_01</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_M10</td></tr><tr><td><b>Production unit name</b></td><td>M10</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_ICH_OP_01</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_ICH</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_ICH_M10</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">M10</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4797427,37.2514443,0 127.4797427,37.2500277,0 127.4828987,37.2500277,0 127.4828987,37.2514443,0 127.4797427,37.2514443,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000007">
+				<name>SKH_ICH_OP_04 · P&amp;T4</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_04</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_PCK</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit name</b></td><td>P&amp;T4</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_ICH_OP_04</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_ICH_PCK</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_ICH</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P&amp;T4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4852091,37.2497203,0 127.4852257,37.2483622,0 127.4871882,37.2483701,0 127.4871756,37.2497296,0 127.4852091,37.2497203,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000008">
+				<name>SKH_ICH_OP_05 · P&amp;T1</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_ICH_OP_05</td></tr><tr><td><b>Production unit code</b></td><td>SKH_ICH_P&amp;T1</td></tr><tr><td><b>Production unit name</b></td><td>P&amp;T1</td></tr><tr><td><b>Campus code</b></td><td>SKH_ICH</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_ICH_OP_05</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_ICH_P&amp;T1</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P&amp;T1</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_ICH</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.484975,37.2469548,0 127.4849693,37.2480944,0 127.4838393,37.2481222,0 127.4838468,37.2469365,0 127.484975,37.2469548,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="5F2C60018F000009">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SKH_CJJ — SK hynix Cheongju</name>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F00000A">
+				<name>SKH_CJJ_EX_01 · P&amp;T6</name>
+				<styleUrl>#__managed_style_072FDE0A50424FC9F478</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_CJJ_EX_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_CJJ_P&amp;T6</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P&amp;T6</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_CJJ</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">HBM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">EX</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4315085,36.6499593,0 127.4324041,36.6499515,0 127.4324041,36.6498944,0 127.4328465,36.649891,0 127.4328474,36.6499508,0 127.4339363,36.6499452,0 127.4339443,36.6509217,0 127.4329256,36.6509264,0 127.4329241,36.651076,0 127.4325161,36.6510795,0 127.4325161,36.6509297,0 127.4315277,36.6509344,0 127.4315085,36.6499593,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00000B">
+				<name>SKH_CJJ_OP_01 · P&amp;T3</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_OP_01</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_P&amp;T3</td></tr><tr><td><b>Production unit name</b></td><td>P&amp;T3</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Primary associated product</b></td><td>NAND</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_CJJ_OP_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_CJJ_P&amp;T3</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P&amp;T3</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_CJJ</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">NAND</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4236652,36.6485075,0 127.4250183,36.6483869,0 127.4252423,36.6500218,0 127.4238914,36.6501423,0 127.4236652,36.6485075,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00000C">
+				<name>SKH_CJJ_OP_02 · M11_M12</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_OP_02</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_M11_M12</td></tr><tr><td><b>Production unit name</b></td><td>M11_M12</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>NAND</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_CJJ_OP_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_CJJ_M11_M12</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">M11_M12</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_CJJ</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">NAND</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4316253,36.6470268,0 127.4278012,36.6470535,0 127.4277877,36.6458126,0 127.4284428,36.6458073,0 127.428441,36.6456247,0 127.4316067,36.6456081,0 127.4316253,36.6470268,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00000D">
+				<name>SKH_CJJ_OP_03 · M15</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_M15</td></tr><tr><td><b>Production unit name</b></td><td>M15</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_CJJ_OP_03</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_CJJ_M15</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">M15</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_CJJ</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4287742,36.6544496,0 127.4325052,36.6547355,0 127.4323194,36.6563298,0 127.4285806,36.6560474,0 127.4287742,36.6544496,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00000E">
+				<name>SKH_CJJ_OP_04 · M15X</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_OP_04</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_M15X</td></tr><tr><td><b>Production unit name</b></td><td>M15X</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_CJJ_OP_04</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_CJJ_M15X</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">M15X</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_CJJ</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4323581,36.6563306,0 127.4325343,36.6547414,0 127.4349417,36.6549244,0 127.4347554,36.6565182,0 127.4323581,36.6563306,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00000F">
+				<name>SKH_CJJ_EX_02 · P&amp;T7</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_CJJ_EX_02</td></tr><tr><td><b>Production unit code</b></td><td>SKH_CJJ_P&amp;T7</td></tr><tr><td><b>Production unit name</b></td><td>P&amp;T7</td></tr><tr><td><b>Campus code</b></td><td>SKH_CJJ</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Primary associated product</b></td><td>HBM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_2A10400797424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_CJJ_EX_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_CJJ_P&amp;T7</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P&amp;T7</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_CJJ</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">HBM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">EX</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4306473,36.6596684,0 127.430228,36.6625682,0 127.427628,36.662326,0 127.4280473,36.659406,0 127.4306473,36.6596684,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="078B03D255424F751999">
+				<name>TEST_123_123</name>
+				<description><![CDATA[<i></i>date: 2026-02-05<br><div><br></div>]]></description>
+				<LookAt>
+					<longitude>127.4331576393196</longitude>
+					<latitude>36.65666394595789</latitude>
+					<altitude>54.21367398357879</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>30</gx:fovy>
+					<range>1431.688007415942</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#__managed_style_46331CE621424FC9F477</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.4294657690849,36.65684404533665,0 127.4315399654726,36.6570676121622,0 127.4314538350758,36.65759135006135,0 127.4293648979772,36.65750212557605,0 127.4294657690849,36.65684404533665,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="5F2C60018F000010">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SKH_YIN — SK hynix Yongin</name>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F000011">
+				<name>SKH_YIN_EX_01 · EXPANSION</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SKH_YIN_EX_01</td></tr><tr><td><b>Production unit code</b></td><td>SKH_YIN_EX</td></tr><tr><td><b>Production unit name</b></td><td>EXPANSION</td></tr><tr><td><b>Campus code</b></td><td>SKH_YIN</td></tr><tr><td><b>Production unit type</b></td><td>n/a</td></tr><tr><td><b>Primary associated product</b></td><td>n/a</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_2A10400797424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SKH_YIN_EX_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SKH_YIN_EX</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">EXPANSION</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SKH_YIN</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">n/a</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">n/a</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">EX</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.3186406,37.1599045,0 127.3172996,37.1599175,0 127.3162805,37.1594805,0 127.3139929,37.1527064,0 127.3141608,37.1514519,0 127.313207,37.1486771,0 127.3111075,37.1454116,0 127.3221344,37.1429897,0 127.3265194,37.1551081,0 127.3276958,37.1555952,0 127.3284789,37.1576138,0 127.3186406,37.1599045,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="5F2C60018F000012">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SSE_GHG — Samsung Giheung</name>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F000013">
+				<name>SSE_GHG_OP_01 · 6</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_GHG_OP_01</td></tr><tr><td><b>Production unit code</b></td><td>SSE_GHG_6</td></tr><tr><td><b>Production unit name</b></td><td>6</td></tr><tr><td><b>Campus code</b></td><td>SSE_GHG</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>LOGIC</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_GHG_OP_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_GHG_6</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">6</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_GHG</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">LOGIC</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0848557,37.2296894,0 127.0848582,37.2287584,0 127.0872233,37.2287594,0 127.0872251,37.2296801,0 127.0848557,37.2296894,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000014">
+				<name>SSE_GHG_OP_02 · S1</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_GHG_OP_02</td></tr><tr><td><b>Production unit code</b></td><td>SSE_GHG_S1_01</td></tr><tr><td><b>Production unit name</b></td><td>S1</td></tr><tr><td><b>Campus code</b></td><td>SSE_GHG</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>LOGIC</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_GHG_OP_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_GHG_S1_01</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">S1</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_GHG</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">LOGIC</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.084815,37.2274814,0 127.0872511,37.2274429,0 127.0872783,37.2284885,0 127.0848331,37.2285342,0 127.084815,37.2274814,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000015">
+				<name>SSE_GHG_OP_03 · S1</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_GHG_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SSE_GHG_S1_02</td></tr><tr><td><b>Production unit name</b></td><td>S1</td></tr><tr><td><b>Campus code</b></td><td>SSE_GHG</td></tr><tr><td><b>Primary associated product</b></td><td>LOGIC</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_GHG_OP_03</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_GHG_S1_02</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">S1</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_GHG</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">LOGIC</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0848455,37.2258866,0 127.08698,37.2258735,0 127.0870488,37.2271066,0 127.0848946,37.2271378,0 127.0848455,37.2258866,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="5F2C60018F000016">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SSE_HWA — Samsung Hwaseong</name>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F000017">
+				<name>SSE_HWA_OP_01 · 12_13</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_HWA_OP_01</td></tr><tr><td><b>Production unit code</b></td><td>SSE_HWA_12_13</td></tr><tr><td><b>Production unit name</b></td><td>12_13</td></tr><tr><td><b>Campus code</b></td><td>SSE_HWA</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_HWA_OP_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_HWA_12_13</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">12_13</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_HWA</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0619712,37.2212668,0 127.0628744,37.2202075,0 127.062759,37.220137,0 127.0629513,37.2199471,0 127.0651172,37.2211755,0 127.0650018,37.221295,0 127.0651633,37.2213899,0 127.064971,37.2215707,0 127.0650864,37.2216411,0 127.0642293,37.2225625,0 127.0619712,37.2212668,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000018">
+				<name>SSE_HWA_OP_02 · S4</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_HWA_OP_02</td></tr><tr><td><b>Production unit code</b></td><td>SSE_HWA_S4</td></tr><tr><td><b>Production unit name</b></td><td>S4</td></tr><tr><td><b>Campus code</b></td><td>SSE_HWA</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>LOGIC</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_HWA_OP_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_HWA_S4</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">S4</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_HWA</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">LOGIC</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.064106,37.218391,0 127.0661072,37.219557,0 127.0658884,37.2197978,0 127.0660833,37.2199086,0 127.0656258,37.2204251,0 127.0654468,37.2203142,0 127.0651216,37.2206677,0 127.0631192,37.2195397,0 127.064106,37.218391,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000019">
+				<name>SSE_HWA_OP_03 · 15</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_HWA_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SSE_HWA_15</td></tr><tr><td><b>Production unit name</b></td><td>15</td></tr><tr><td><b>Campus code</b></td><td>SSE_HWA</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_HWA_OP_03</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_HWA_15</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">15</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_HWA</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0692329,37.2173087,0 127.0674072,37.2169974,0 127.0679785,37.2145846,0 127.0698561,37.2149052,0 127.0692329,37.2173087,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00001A">
+				<name>SSE_HWA_OP_04 · 16</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_HWA_OP_04</td></tr><tr><td><b>Production unit code</b></td><td>SSE_HWA_16</td></tr><tr><td><b>Production unit name</b></td><td>16</td></tr><tr><td><b>Campus code</b></td><td>SSE_HWA</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_HWA_OP_04</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_HWA_16</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">16</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_HWA</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0661214,37.2124709,0 127.0703728,37.2131454,0 127.0701773,37.2140141,0 127.0705154,37.2140702,0 127.070375,37.2145903,0 127.0658359,37.2138277,0 127.0661214,37.2124709,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00001B">
+				<name>SSE_HWA_OP_05 · 17_S3</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_HWA_OP_05</td></tr><tr><td><b>Production unit code</b></td><td>SSE_HWA_17_S3</td></tr><tr><td><b>Production unit name</b></td><td>17_S3</td></tr><tr><td><b>Campus code</b></td><td>SSE_HWA</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_HWA_OP_05</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_HWA_17_S3</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">17_S3</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_HWA</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0714076,37.2149811,0 127.0759209,37.2157293,0 127.0755203,37.2174274,0 127.0709793,37.2167086,0 127.0714076,37.2149811,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00001C">
+				<name>SSE_HWA_OP_06 · V1</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Zone code</b></td><td>SSE_HWA_OP_06</td></tr><tr><td><b>Production unit code</b></td><td>SSE_HWA_V1</td></tr><tr><td><b>Production unit name</b></td><td>V1</td></tr><tr><td><b>Campus code</b></td><td>SSE_HWA</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>LOGIC</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C60068273EEB8">SSE_HWA_OP_06</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_HWA_V1</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">V1</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_HWA</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">LOGIC</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0718011,37.2133492,0 127.0753872,37.2139181,0 127.0751035,37.2151765,0 127.0715272,37.2146116,0 127.0718011,37.2133492,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="5F2C60018F00001D">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SSE_PTK — Samsung Pyeongtaek</name>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F00001E">
+				<name>SSE_PTK_OP_01 · P1</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_OP_01</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_P1</td></tr><tr><td><b>Production unit name</b></td><td>P1</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_OP_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_P1</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P1</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0546191,37.0375397,0 127.0606411,37.037526,0 127.0606393,37.0393664,0 127.0545883,37.0393679,0 127.0546191,37.0375397,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00001F">
+				<name>SSE_PTK_OP_02 · P2</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_OP_02</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_P2</td></tr><tr><td><b>Production unit name</b></td><td>P2</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>MIXED</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_OP_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_P2</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P2</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">MIXED</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0627462,37.0357638,0 127.0568884,37.0357886,0 127.056883,37.0339202,0 127.0627513,37.0339331,0 127.0627462,37.0357638,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000020">
+				<name>SSE_PTK_OP_03 · P3</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_P3</td></tr><tr><td><b>Production unit name</b></td><td>P3</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>MIXED</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_OP_03</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_P3</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P3</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">MIXED</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0639785,37.0334678,0 127.0567843,37.033462,0 127.0568184,37.0315637,0 127.0639849,37.0315702,0 127.0639785,37.0334678,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000021">
+				<name>SSE_PTK_OP_04 · P4</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_OP_04</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_P4</td></tr><tr><td><b>Production unit name</b></td><td>P4</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>DRAM</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_OP_04</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_P4</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P4</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">DRAM</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0640161,37.0297022,0 127.0567316,37.0297043,0 127.0567687,37.027796,0 127.0640161,37.0278605,0 127.0640161,37.0297022,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000022">
+				<name>SSE_PTK_EX_01 · P5</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_EX_01</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_P5</td></tr><tr><td><b>Production unit name</b></td><td>P5</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>medium</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_2A10400797424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_EX_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_P5</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P5</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">medium</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">EX</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0451099,37.0338391,0 127.0451291,37.0318094,0 127.0519865,37.0318094,0 127.0519865,37.0338084,0 127.0451099,37.0338391,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000023">
+				<name>SSE_PTK_EX_02 · P6</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_EX_02</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_P6</td></tr><tr><td><b>Production unit name</b></td><td>P6</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>medium</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_2A10400797424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_EX_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_P6</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">P6</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">medium</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">EX</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0446729,37.0301421,0 127.0446851,37.0277274,0 127.0526079,37.0277079,0 127.0526447,37.0301519,0 127.0446729,37.0301421,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000024">
+				<name>SSE_PTK_OP_05 · V2</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_PTK_OP_05</td></tr><tr><td><b>Production unit code</b></td><td>SSE_PTK_V2</td></tr><tr><td><b>Production unit name</b></td><td>V2</td></tr><tr><td><b>Campus code</b></td><td>SSE_PTK</td></tr><tr><td><b>Production unit type</b></td><td>FRONT_END_FAB</td></tr><tr><td><b>Primary associated product</b></td><td>MIXED</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_PTK_OP_05</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_PTK_V2</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">V2</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_PTK</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">FRONT_END_FAB</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">MIXED</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0563073,37.0359889,0 127.0544513,37.0359978,0 127.0544292,37.0343399,0 127.0563183,37.0343575,0 127.0563073,37.0359889,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder id="5F2C60018F000025">
+			<ex:extension>base64;GgA</ex:extension>
+			<name>SSE_ONY — Samsung Onyang</name>
+			<open>1</open>
+			<styleUrl>#__managed_style_09739EE5B9424FC9F476</styleUrl>
+			<Placemark id="5F2C60018F000026">
+				<name>SSE_ONY_OP_01 · O1</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_ONY_OP_01</td></tr><tr><td><b>Production unit code</b></td><td>SSE_ONY_O1</td></tr><tr><td><b>Production unit name</b></td><td>O1</td></tr><tr><td><b>Campus code</b></td><td>SSE_ONY</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_ONY_OP_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_ONY_O1</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">O1</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_ONY</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0614227,36.7672679,0 127.0614119,36.7663013,0 127.0623034,36.7662956,0 127.0623213,36.7672708,0 127.0614227,36.7672679,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000027">
+				<name>SSE_ONY_OP_02 · O2</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_ONY_OP_02</td></tr><tr><td><b>Production unit code</b></td><td>SSE_ONY_O2</td></tr><tr><td><b>Production unit name</b></td><td>O2</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Campus code</b></td><td>SSE_ONY</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_ONY_OP_02</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_ONY_O2</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">O2</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_ONY</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.061431,36.7660969,0 127.0614287,36.7651813,0 127.0623252,36.7651787,0 127.0623283,36.7660925,0 127.061431,36.7660969,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000028">
+				<name>SSE_ONY_OP_03 · O3</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_ONY_OP_03</td></tr><tr><td><b>Production unit code</b></td><td>SSE_ONY_O3</td></tr><tr><td><b>Production unit name</b></td><td>O3</td></tr><tr><td><b>Campus code</b></td><td>SSE_ONY</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_ONY_OP_03</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_ONY_O3</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">O3</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_ONY</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0625218,36.7660891,0 127.0625218,36.7651691,0 127.0634068,36.7651727,0 127.0634181,36.7660891,0 127.0625218,36.7660891,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F000029">
+				<name>SSE_ONY_OP_04 · O4</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Production unit name</b></td><td>O4</td></tr><tr><td><b>Campus code</b></td><td>SSE_ONY</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Zone type</b></td><td>OP</td></tr><tr><td><b>Zone code</b></td><td>SSE_ONY_OP_04</td></tr><tr><td><b>Production unit code</b></td><td>SSE_ONY_O4</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>high</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_0870CAAD13424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C600682798BF8">O4</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_ONY</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">OP</SimpleData>
+						<SimpleData name="COL5F2C60068273EEB8">SSE_ONY_OP_04</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_ONY_O4</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">high</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0617674,36.7649643,0 127.0617721,36.7639231,0 127.0633897,36.7639243,0 127.0634044,36.7649679,0 127.0617674,36.7649643,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="5F2C60018F00002A">
+				<name>SSE_ONY_EX_01 · O5</name>
+				<description><![CDATA[<table border="1" cellpadding="3" style="border-collapse:collapse"><tr><td><b>Zone code</b></td><td>SSE_ONY_EX_01</td></tr><tr><td><b>Production unit code</b></td><td>SSE_ONY_O5</td></tr><tr><td><b>Production unit name</b></td><td>O5</td></tr><tr><td><b>Campus code</b></td><td>SSE_ONY</td></tr><tr><td><b>Production unit type</b></td><td>PACKAGING_TEST</td></tr><tr><td><b>Primary associated product</b></td><td>UNKNOWN</td></tr><tr><td><b>Location confidence</b></td><td>medium</td></tr><tr><td><b>Zone type</b></td><td>EX</td></tr></table>]]></description>
+				<styleUrl>#__managed_style_2A10400797424FC9F477</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#__managed_schema">
+						<SimpleData name="COL5F2C60068273EEB8">SSE_ONY_EX_01</SimpleData>
+						<SimpleData name="COL5F2C600682A63E86">SSE_ONY_O5</SimpleData>
+						<SimpleData name="COL5F2C600682798BF8">O5</SimpleData>
+						<SimpleData name="COL5F2C60068269AD01">SSE_ONY</SimpleData>
+						<SimpleData name="COL5F2C600682021B80">PACKAGING_TEST</SimpleData>
+						<SimpleData name="COL5F2C6006822E9DBE">UNKNOWN</SimpleData>
+						<SimpleData name="COL5F2C600682617270">medium</SimpleData>
+						<SimpleData name="COL5F2C6006823C4E8C">EX</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								127.0621781,36.7637454,0 127.0621964,36.7630197,0 127.0648637,36.7630455,0 127.0648544,36.7637586,0 127.0621781,36.7637454,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Placemark id="001CB7325A424FCD1329">
+		<name>TEST_123</name>
+		<styleUrl>#__managed_style_00DBF349A7424FCE37FC</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						127.4776019092825,37.24866328577508,0 127.4776108840004,37.24823498590866,0 127.4786525404175,37.24827044995777,0 127.4786117765044,37.24866421805658,0 127.4776019092825,37.24866328577508,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
