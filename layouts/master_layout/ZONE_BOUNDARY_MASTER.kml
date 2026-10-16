@@ -26,29 +26,6 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_normal">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_03659F19F142695232A4_highlight">
 		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
@@ -96,6 +73,42 @@
 			</PolyStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0F9CED97394278CF4A4F_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>0.75</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2021-07-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2021-12-06</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="zone">
+		<LineStyle>
+			<color>ff1e87e8</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>661e87e8</color>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="__managed_style_03659F19F142695232A4">
 		<Pair>
 			<key>normal</key>
@@ -106,16 +119,17 @@
 			<styleUrl>#__managed_style_03659F19F142695232A4_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="zone">
-		<LineStyle>
-			<color>ff1e87e8</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>661e87e8</color>
-		</PolyStyle>
-	</Style>
-	<gx:CascadingStyle kml:id="__managed_style_0778527D7042789AD278_highlight">
+	<StyleMap id="__managed_style_077704A1DC4278AD22D4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_077704A1DC4278AD22D4_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_077704A1DC4278AD22D4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0F9CED97394278CF4A4F_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
@@ -136,13 +150,37 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
-  <h1>record_created_at: 2026-10-12</h1>
-  <h1>imagery_acquired_date: 2020-03-08</h1>
+  <h1>effective_from: 2021-07-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2021-12-06</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0778527D7042789AD278_normal">
+	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_077704A1DC4278AD22D4_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
@@ -162,20 +200,49 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
-  <h1>record_created_at: 2026-10-12</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0778527D7042789AD278">
+	<gx:CascadingStyle kml:id="__managed_style_077704A1DC4278AD22D4_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.125</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F9CED97394278CF4A4F">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_0778527D7042789AD278_normal</styleUrl>
+			<styleUrl>#__managed_style_0F9CED97394278CF4A4F_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_0778527D7042789AD278_highlight</styleUrl>
+			<styleUrl>#__managed_style_0F9CED97394278CF4A4F_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder id="0416B333D24269514030">
@@ -184,12 +251,12 @@
 		<open>1</open>
 		<Placemark id="1C6F51AE654269514030">
 			<name>SKH_ICH_OP_03</name>
-			<styleUrl>#__managed_style_0778527D7042789AD278</styleUrl>
+			<styleUrl>#__managed_style_0F9CED97394278CF4A4F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4841047,37.2500254,0 127.487888,37.250039,0 127.487873,37.251528,0 127.4841022,37.2515,0 127.4841047,37.2500254,0 
+							127.4841102901286,37.2499819551286,0 127.4879200552699,37.24997997851406,0 127.4879330279036,37.25149134619419,0 127.4841022,37.2515,0 127.4841102901286,37.2499819551286,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -197,12 +264,12 @@
 		</Placemark>
 		<Placemark id="21250297D24269514030">
 			<name>SKH_ICH_OP_02</name>
-			<styleUrl>#__managed_style_0778527D7042789AD278</styleUrl>
+			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4796695,37.2497298,0 127.4798850970131,37.24677204333196,0 127.4817380296342,37.2467803411346,0 127.481756625411,37.24971037988526,0 127.4796695,37.2497298,0 
+							127.4798595705619,37.24980238528374,0 127.4798276156388,37.24676972135467,0 127.4817380296342,37.2467803411346,0 127.4817475159931,37.24980517492403,0 127.4798595705619,37.24980238528374,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -210,7 +277,7 @@
 		</Placemark>
 		<Placemark id="37C56CC7484269514030">
 			<name>SKH_ICH_OP_01</name>
-			<styleUrl>#__managed_style_0778527D7042789AD278</styleUrl>
+			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -223,6 +290,7 @@
 		</Placemark>
 		<Placemark id="4B8F87CEDD4269514030">
 			<name>SKH_ICH_OP_04</name>
+			<visibility>0</visibility>
 			<styleUrl>#zone</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
@@ -264,7 +332,6 @@
 	<Folder id="79485F03834269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_CJJ</name>
-		<open>1</open>
 		<Placemark id="86D998B9244269514030">
 			<name>SKH_CJJ_EX_01</name>
 			<description><![CDATA[<div>&lt;div&gt;record_created_at: 2026-10-12<br></div><div>imagery_acquired_date: 2026-10-12&lt;br&gt;&lt;/div&gt;<br></div>]]></description>
@@ -348,7 +415,6 @@
 	<Folder id="EE8B390A014269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_YIN</name>
-		<open>1</open>
 		<Placemark id="F50815B9EE4269514030">
 			<name>SKH_YIN_EX_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -366,7 +432,6 @@
 	<Folder id="10F62F807F04269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_GHG</name>
-		<open>1</open>
 		<Placemark id="11120B823334269514030">
 			<name>SSE_GHG_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -410,7 +475,6 @@
 	<Folder id="14C484B0C4B4269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_HWA</name>
-		<open>1</open>
 		<Placemark id="15956677C184269514030">
 			<name>SSE_HWA_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -493,7 +557,6 @@
 	<Folder id="1B6361452A24269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_PTK</name>
-		<open>1</open>
 		<Placemark id="1CBFBE170214269514030">
 			<name>SSE_PTK_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -589,7 +652,6 @@
 	<Folder id="2355661CD9F4269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_ONY</name>
-		<open>1</open>
 		<Placemark id="24E856716F94269514030">
 			<name>SSE_ONY_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -659,7 +721,6 @@
 	<Folder id="0E14519EE94269698FF3">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_CAN</name>
-		<open>1</open>
 		<styleUrl>#__managed_style_04BFA397AC4269698FFC</styleUrl>
 	</Folder>
 </Document>
