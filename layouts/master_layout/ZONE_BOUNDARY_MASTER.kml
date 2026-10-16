@@ -24,6 +24,15 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<Style id="zone">
+		<LineStyle>
+			<color>ff1e87e8</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>661e87e8</color>
+		</PolyStyle>
+	</Style>
 	<gx:CascadingStyle kml:id="__managed_style_03659F19F142695232A4_highlight">
 		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
@@ -63,15 +72,6 @@
 			<styleUrl>#__managed_style_03659F19F142695232A4_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="zone">
-		<LineStyle>
-			<color>ff1e87e8</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>661e87e8</color>
-		</PolyStyle>
-	</Style>
 	<gx:CascadingStyle kml:id="__managed_style_095306852D4278E3BA58_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -434,7 +434,7 @@
 		</Placemark>
 		<Placemark id="548A6353F04269514030">
 			<name>SKH_ICH_OP_06</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
