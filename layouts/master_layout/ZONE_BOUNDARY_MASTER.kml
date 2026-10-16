@@ -106,7 +106,16 @@
 			<styleUrl>#__managed_style_03659F19F142695232A4_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0F2AB1F2D742781FA1C3_highlight">
+	<Style id="zone">
+		<LineStyle>
+			<color>ff1e87e8</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>661e87e8</color>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_0778527D7042789AD278_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
@@ -119,7 +128,7 @@
 			</LabelStyle>
 			<LineStyle>
 				<color>ff1e87e8</color>
-				<width>2.25</width>
+				<width>1.125</width>
 			</LineStyle>
 			<PolyStyle>
 				<color>661e87e8</color>
@@ -127,13 +136,13 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
-  <h1>record_created_at: 2020-04-18</h1>
+  <h1>record_created_at: 2026-10-12</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0F2AB1F2D742781FA1C3_normal">
+	<gx:CascadingStyle kml:id="__managed_style_0778527D7042789AD278_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
@@ -145,7 +154,7 @@
 			</LabelStyle>
 			<LineStyle>
 				<color>ff1e87e8</color>
-				<width>1.5</width>
+				<width>0.75</width>
 			</LineStyle>
 			<PolyStyle>
 				<color>661e87e8</color>
@@ -153,40 +162,29 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
-  <h1>record_created_at: 2020-04-18</h1>
+  <h1>record_created_at: 2026-10-12</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0F2AB1F2D742781FA1C3">
+	<StyleMap id="__managed_style_0778527D7042789AD278">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_0F2AB1F2D742781FA1C3_normal</styleUrl>
+			<styleUrl>#__managed_style_0778527D7042789AD278_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_0F2AB1F2D742781FA1C3_highlight</styleUrl>
+			<styleUrl>#__managed_style_0778527D7042789AD278_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="zone">
-		<LineStyle>
-			<color>ff1e87e8</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>661e87e8</color>
-		</PolyStyle>
-	</Style>
 	<Folder id="0416B333D24269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_ICH</name>
 		<open>1</open>
 		<Placemark id="1C6F51AE654269514030">
 			<name>SKH_ICH_OP_03</name>
-			<description><![CDATA[<div>record_created_at: 2026-10-12
-imagery_acquired_date: 2026-10-12<br></div>]]></description>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0778527D7042789AD278</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -199,12 +197,12 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 		<Placemark id="21250297D24269514030">
 			<name>SKH_ICH_OP_02</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0778527D7042789AD278</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4796695,37.2497298,0 127.4797232,37.2466564,0 127.4813396,37.2466588,0 127.481358,37.249322,0 127.481362,37.249743,0 127.4796695,37.2497298,0 
+							127.4796695,37.2497298,0 127.4798850970131,37.24677204333196,0 127.4817380296342,37.2467803411346,0 127.481756625411,37.24971037988526,0 127.4796695,37.2497298,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -212,7 +210,7 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 		<Placemark id="37C56CC7484269514030">
 			<name>SKH_ICH_OP_01</name>
-			<styleUrl>#__managed_style_0F2AB1F2D742781FA1C3</styleUrl>
+			<styleUrl>#__managed_style_0778527D7042789AD278</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
