@@ -2,9 +2,112 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
 <Document>
 	<ex:extension>base64;CooBCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAA</ex:extension>
+	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_03659F19F142695232A4_highlight">
 		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_04BFA397AC4269698FFC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_04BFA397AC4269698FFC_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_03659F19F142695232A4_normal">
+		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_03659F19F142695232A4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_03659F19F142695232A4_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_03659F19F142695232A4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0F2AB1F2D742781FA1C3_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -22,12 +125,16 @@
 				<color>661e87e8</color>
 			</PolyStyle>
 			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_created_at: 2020-04-18</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_03659F19F142695232A4_normal">
-		<ex:extension>base64;Eq4BGAEiqQEKpgEKT2h0dHBzOi8vZWFydGguZ29vZ2xlLmNvbS9iYWxsb29uX2NvbXBvbmVudHMvYmFzZS8xLjEuMC4wL2NhcmRfdGVtcGxhdGUua21sI21haW4SUwpPaHR0cHM6Ly9lYXJ0aC5nb29nbGUuY29tL2JhbGxvb25fY29tcG9uZW50cy9iYXNlL2N1cnJlbnQvY2FyZF90ZW1wbGF0ZS5rbWwjbWFpbhgA</ex:extension>
-		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+	<gx:CascadingStyle kml:id="__managed_style_0F2AB1F2D742781FA1C3_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -44,17 +151,22 @@
 				<color>661e87e8</color>
 			</PolyStyle>
 			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_created_at: 2020-04-18</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_03659F19F142695232A4">
+	<StyleMap id="__managed_style_0F2AB1F2D742781FA1C3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_03659F19F142695232A4_normal</styleUrl>
+			<styleUrl>#__managed_style_0F2AB1F2D742781FA1C3_normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_03659F19F142695232A4_highlight</styleUrl>
+			<styleUrl>#__managed_style_0F2AB1F2D742781FA1C3_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="zone">
@@ -100,12 +212,12 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 		<Placemark id="37C56CC7484269514030">
 			<name>SKH_ICH_OP_01</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0F2AB1F2D742781FA1C3</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4827095,37.2496922,0 127.4827136,37.2483967,0 127.4850077,37.2483955,0 127.484998,37.2494433,0 127.4847748,37.2494416,0 127.4847676,37.2496922,0 127.4827095,37.2496922,0 
+							127.4827095,37.2496922,0 127.4827136,37.2483967,0 127.4850077,37.2483955,0 127.4850164872248,37.24968411315396,0 127.4827095,37.2496922,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -236,7 +348,9 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 	</Folder>
 	<Folder id="EE8B390A014269514030">
+		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_YIN</name>
+		<open>1</open>
 		<Placemark id="F50815B9EE4269514030">
 			<name>SKH_YIN_EX_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -252,7 +366,9 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 	</Folder>
 	<Folder id="10F62F807F04269514030">
+		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_GHG</name>
+		<open>1</open>
 		<Placemark id="11120B823334269514030">
 			<name>SSE_GHG_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -294,7 +410,9 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 	</Folder>
 	<Folder id="14C484B0C4B4269514030">
+		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_HWA</name>
+		<open>1</open>
 		<Placemark id="15956677C184269514030">
 			<name>SSE_HWA_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -375,7 +493,9 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 	</Folder>
 	<Folder id="1B6361452A24269514030">
+		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_PTK</name>
+		<open>1</open>
 		<Placemark id="1CBFBE170214269514030">
 			<name>SSE_PTK_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -469,7 +589,9 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 		</Placemark>
 	</Folder>
 	<Folder id="2355661CD9F4269514030">
+		<ex:extension>base64;GgA</ex:extension>
 		<name>SSE_ONY</name>
+		<open>1</open>
 		<Placemark id="24E856716F94269514030">
 			<name>SSE_ONY_OP_01</name>
 			<styleUrl>#zone</styleUrl>
@@ -535,6 +657,12 @@ imagery_acquired_date: 2026-10-12<br></div>]]></description>
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
+	</Folder>
+	<Folder id="0E14519EE94269698FF3">
+		<ex:extension>base64;GgA</ex:extension>
+		<name>SSE_CAN</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_04BFA397AC4269698FFC</styleUrl>
 	</Folder>
 </Document>
 </kml>
