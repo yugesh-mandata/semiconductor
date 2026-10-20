@@ -915,7 +915,7 @@
 		</Placemark>
 		<Placemark id="1256C9C34E04269514030">
 			<name>SSE_GHG_OP_02</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
