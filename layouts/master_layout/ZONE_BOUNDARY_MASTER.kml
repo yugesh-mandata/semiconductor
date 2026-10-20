@@ -2,16 +2,28 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
 <Document>
 	<ex:extension>base64;CooBCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAA</ex:extension>
-	<StyleMap id="__managed_style_04BFA397AC4269698FFC">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_04BFA397AC4269698FFC_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -33,6 +45,26 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_039820C921428D5274D9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_039820C921428D5274D9_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_039820C921428D5274D9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_04BFA397AC4269698FFC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_04BFA397AC4269698FFC_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="zone">
 		<LineStyle>
 			<color>ff1e87e8</color>
@@ -42,6 +74,33 @@
 			<color>661e87e8</color>
 		</PolyStyle>
 	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_0363039988428DBC95EB_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2022-09-07</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_0D9E827BA1428DB33F79_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -160,6 +219,32 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0F9CED97394278CF4A4F_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.125</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2021-07-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2021-12-06</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_06962B2C90428D63E1A0_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -221,6 +306,16 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_058CF06B424278DDCED0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_058CF06B424278DDCED0_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_058CF06B424278DDCED0_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="__managed_style_0D75232CCA428D60C094">
 		<Pair>
 			<key>normal</key>
@@ -231,6 +326,32 @@
 			<styleUrl>#__managed_style_0D75232CCA428D60C094_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0D15EE4714428CF3D584_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_039820C921428D5274D9_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -371,16 +492,6 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_058CF06B424278DDCED0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_058CF06B424278DDCED0_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_058CF06B424278DDCED0_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="__managed_style_0A12276DE1428D42527F">
 		<Pair>
 			<key>normal</key>
@@ -391,6 +502,31 @@
 			<styleUrl>#__managed_style_0A12276DE1428D42527F_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1A3C7E5B9D428D2F6E10_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2022-10-01</h1>
+  <h1>effective_to: 2026-01-31</h1>
+  <h1>imagery_acquired_date: 2023-02-23</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0D9E827BA1428DB33F79">
 		<Pair>
 			<key>normal</key>
@@ -436,6 +572,34 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0363039988428DBC95EB_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2022-09-07</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0C5EF2EB37428D140484">
 		<Pair>
 			<key>normal</key>
@@ -471,16 +635,32 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_039820C921428D5274D9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_039820C921428D5274D9_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_039820C921428D5274D9_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_058CF06B424278DDCED0_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.125</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: 2021-06-30</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0D15EE4714428CF3D584">
 		<Pair>
 			<key>normal</key>
@@ -491,7 +671,7 @@
 			<styleUrl>#__managed_style_0D15EE4714428CF3D584_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0D15EE4714428CF3D584_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0D31D23BFB428D45C39B_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
@@ -510,34 +690,9 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
-  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_from: 2025-02-24</h1>
   <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2020-06-09</h1>
-</html>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1A3C7E5B9D428D2F6E10_normal">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff1e87e8</color>
-				<width>1.5</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>661e87e8</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<!DOCTYPE html>
-<html>
-  <h1>effective_from: 2022-10-01</h1>
-  <h1>effective_to: 2026-01-31</h1>
-  <h1>imagery_acquired_date: 2023-02-23</h1>
+  <h1>imagery_acquired_date: 2025-01-01</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
@@ -654,32 +809,6 @@
 			<styleUrl>#__managed_style_095306852D4278E3BA58_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0D31D23BFB428D45C39B_highlight">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff1e87e8</color>
-				<width>2.25</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>661e87e8</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<!DOCTYPE html>
-<html>
-  <h1>effective_from: 2025-02-24</h1>
-  <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2025-01-01</h1>
-</html>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_095306852D4278E3BA58_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -705,28 +834,16 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_highlight">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>6</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<displayMode>hide</displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0363039988428DBC95EB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0363039988428DBC95EB_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0363039988428DBC95EB_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_077704A1DC4278AD22D4_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -774,32 +891,6 @@
   <h1>effective_from: 2022-10-01</h1>
   <h1>effective_to: 2026-01-31</h1>
   <h1>imagery_acquired_date: 2023-02-23</h1>
-</html>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_058CF06B424278DDCED0_highlight">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff1e87e8</color>
-				<width>1.125</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>661e87e8</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<!DOCTYPE html>
-<html>
-  <h1>effective_from: 2020-01-01</h1>
-  <h1>effective_to: 2021-06-30</h1>
-  <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
@@ -871,32 +962,6 @@
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2021-06-30</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
-</html>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0F9CED97394278CF4A4F_highlight">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff1e87e8</color>
-				<width>1.125</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>661e87e8</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<!DOCTYPE html>
-<html>
-  <h1>effective_from: 2021-07-01</h1>
-  <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2021-12-06</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
@@ -1321,7 +1386,7 @@
 		</Placemark>
 		<Placemark id="1E9450239814269514030">
 			<name>SSE_PTK_OP_03</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0363039988428DBC95EB</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
