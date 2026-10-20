@@ -2,6 +2,25 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
 <Document>
 	<ex:extension>base64;CooBCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAA</ex:extension>
+	<StyleMap id="__managed_style_04BFA397AC4269698FFC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_04BFA397AC4269698FFC_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="zone">
+		<LineStyle>
+			<color>ff1e87e8</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>661e87e8</color>
+		</PolyStyle>
+	</Style>
 	<gx:CascadingStyle kml:id="__managed_style_04BFA397AC4269698FFC_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -24,25 +43,33 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_04BFA397AC4269698FFC">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_04BFA397AC4269698FFC_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="zone">
-		<LineStyle>
-			<color>ff1e87e8</color>
-			<width>1.5</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>661e87e8</color>
-		</PolyStyle>
-	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_0C5EF2EB37428D140484_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2026-02-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2025-01-01</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_0D15EE4714428CF3D584_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -127,6 +154,34 @@
 			</PolyStyle>
 			<BalloonStyle>
 				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0C5EF2EB37428D140484_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2026-02-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2025-01-01</h1>
+</html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
@@ -371,6 +426,16 @@
 			<styleUrl>#__managed_style_095306852D4278E3BA58_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="__managed_style_0C5EF2EB37428D140484">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0C5EF2EB37428D140484_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0C5EF2EB37428D140484_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="__managed_style_0F9CED97394278CF4A4F">
 		<Pair>
 			<key>normal</key>
@@ -379,6 +444,71 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_0F9CED97394278CF4A4F_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1A3C7E5B9D428D2F6E10_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2022-10-01</h1>
+  <h1>effective_to: 2026-01-31</h1>
+  <h1>imagery_acquired_date: 2023-02-23</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1A3C7E5B9D428D2F6E10_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2022-10-01</h1>
+  <h1>effective_to: 2026-01-31</h1>
+  <h1>imagery_acquired_date: 2023-02-23</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_1A3C7E5B9D428D2F6E10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1A3C7E5B9D428D2F6E10_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1A3C7E5B9D428D2F6E10_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder id="0416B333D24269514030">
@@ -535,12 +665,25 @@
 		</Placemark>
 		<Placemark id="C1253580BE4269514030">
 			<name>SKH_CJJ_OP_04</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0C5EF2EB37428D140484</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4323581,36.6563306,0 127.4325343,36.6547414,0 127.4349417,36.6549244,0 127.4347554,36.6565182,0 127.4323581,36.6563306,0 
+							127.4323581,36.6563306,0 127.4325343,36.6547414,0 127.4349417,36.6549244,0 127.4347554,36.6565182,0 127.4323581,36.6563306,0
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="2B9E4F02D14269514030">
+			<name>SKH_CJJ_EX_03</name>
+			<styleUrl>#__managed_style_1A3C7E5B9D428D2F6E10</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.4323581,36.6563306,0 127.4325343,36.6547414,0 127.4349417,36.6549244,0 127.4347554,36.6565182,0 127.4323581,36.6563306,0
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
