@@ -55,6 +55,43 @@
 			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_039820C921428D5274D9_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D31D23BFB428D45C39B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0D31D23BFB428D45C39B_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D31D23BFB428D45C39B_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_0A12276DE1428D42527F_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -154,6 +191,16 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_039820C921428D5274D9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_039820C921428D5274D9_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_039820C921428D5274D9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="__managed_style_1A3C7E5B9D428D2F6E10">
 		<Pair>
 			<key>normal</key>
@@ -511,6 +558,33 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0D31D23BFB428D45C39B_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2025-02-24</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2025-01-01</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_0F9CED97394278CF4A4F_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -536,6 +610,34 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_039820C921428D5274D9_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0C5EF2EB37428D140484">
 		<Pair>
 			<key>normal</key>
@@ -546,6 +648,34 @@
 			<styleUrl>#__managed_style_0C5EF2EB37428D140484_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0D31D23BFB428D45C39B_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2025-02-24</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2025-01-01</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0F9CED97394278CF4A4F">
 		<Pair>
 			<key>normal</key>
@@ -754,7 +884,7 @@
 		<open>1</open>
 		<Placemark id="F50815B9EE4269514030">
 			<name>SKH_YIN_EX_01</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0D31D23BFB428D45C39B</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -772,7 +902,7 @@
 		<open>1</open>
 		<Placemark id="11120B823334269514030">
 			<name>SSE_GHG_OP_01</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
