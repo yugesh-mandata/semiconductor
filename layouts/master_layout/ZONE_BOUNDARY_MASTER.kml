@@ -509,7 +509,7 @@
 		</Placemark>
 		<Placemark id="A9C8F0354B4269514030">
 			<name>SKH_CJJ_OP_02</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
