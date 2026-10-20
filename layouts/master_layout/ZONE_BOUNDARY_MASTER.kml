@@ -55,6 +55,16 @@
 			<styleUrl>#__managed_style_04BFA397AC4269698FFC_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="__managed_style_0E3DFC87A6428D55CE8C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0E3DFC87A6428D55CE8C_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0E3DFC87A6428D55CE8C_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_039820C921428D5274D9_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -78,6 +88,32 @@
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0E3DFC87A6428D55CE8C_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
@@ -285,6 +321,33 @@
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0E3DFC87A6428D55CE8C_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
@@ -928,7 +991,7 @@
 		</Placemark>
 		<Placemark id="133B31DCDEC4269514030">
 			<name>SSE_GHG_OP_03</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_0E3DFC87A6428D55CE8C</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
