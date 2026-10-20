@@ -972,7 +972,7 @@
 		</Placemark>
 		<Placemark id="17C026EF7844269514030">
 			<name>SSE_HWA_OP_03</name>
-			<styleUrl>#zone</styleUrl>
+			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
