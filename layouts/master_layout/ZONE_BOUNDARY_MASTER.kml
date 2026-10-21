@@ -427,32 +427,6 @@
 			<styleUrl>#__managed_style_0D9E827BA1428DB33F79_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_0A6D4693DB428DB2ED4F_highlight">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff1e87e8</color>
-				<width>2.25</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>661e87e8</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<!DOCTYPE html>
-<html>
-  <h1>effective_from: 2020-08-30</h1>
-  <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2020-12-25</h1>
-</html>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_0F9CED97394278CF4A4F">
 		<Pair>
 			<key>normal</key>
@@ -612,6 +586,33 @@
 			<styleUrl>#__managed_style_0EBCC9907A42924A065C_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_035D0272774292CC9AAF_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2025-02-24</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2026-04-15</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_06962B2C90428D63E1A0">
 		<Pair>
 			<key>normal</key>
@@ -755,7 +756,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0D31D23BFB428D45C39B_highlight">
+	<gx:CascadingStyle kml:id="__managed_style_0A6D4693DB428DB2ED4F_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
@@ -774,48 +775,13 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
-  <h1>effective_from: 2025-02-24</h1>
+  <h1>effective_from: 2020-08-30</h1>
   <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2025-01-01</h1>
+  <h1>imagery_acquired_date: 2020-12-25</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0C5EF2EB37428D140484_normal">
-		<ex:extension>base64;EgIYAQ</ex:extension>
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff1e87e8</color>
-				<width>1.5</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>661e87e8</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<text><![CDATA[<!DOCTYPE html>
-<html>
-  <h1>effective_from: 2026-02-01</h1>
-  <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2025-01-01</h1>
-</html>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0D31D23BFB428D45C39B">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_0D31D23BFB428D45C39B_normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_0D31D23BFB428D45C39B_highlight</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="__managed_style_058CF06B424278DDCED0">
 		<Pair>
 			<key>normal</key>
@@ -954,6 +920,16 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_035D0272774292CC9AAF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_035D0272774292CC9AAF_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_035D0272774292CC9AAF_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="__managed_style_1A3C7E5B9D428D2F6E10">
 		<Pair>
 			<key>normal</key>
@@ -1246,6 +1222,31 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0C5EF2EB37428D140484_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>effective_from: 2026-02-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>imagery_acquired_date: 2025-01-01</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<StyleMap id="__managed_style_095306852D4278E3BA58">
 		<Pair>
 			<key>normal</key>
@@ -1333,17 +1334,20 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_0D31D23BFB428D45C39B_normal">
+	<gx:CascadingStyle kml:id="__managed_style_035D0272774292CC9AAF_highlight">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
 			<IconStyle>
+				<scale>1.2</scale>
 				<Icon>
 					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 				</Icon>
 			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
 			<LineStyle>
 				<color>ff1e87e8</color>
-				<width>1.5</width>
+				<width>2.25</width>
 			</LineStyle>
 			<PolyStyle>
 				<color>661e87e8</color>
@@ -1353,7 +1357,7 @@
 <html>
   <h1>effective_from: 2025-02-24</h1>
   <h1>effective_to: NULL</h1>
-  <h1>imagery_acquired_date: 2025-01-01</h1>
+  <h1>imagery_acquired_date: 2026-04-15</h1>
 </html>]]></text>
 			</BalloonStyle>
 		</Style>
@@ -1413,14 +1417,79 @@
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_ICH</name>
 		<open>1</open>
-		<Placemark id="1C6F51AE654269514030">
+		<Placemark id="4B8F87CEDD4269514030">
+			<name>SKH_ICH_OP_01</name>
+			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.4797427,37.2514443,0 127.4797427,37.2500277,0 127.4828987,37.2500277,0 127.4828987,37.2514443,0 127.4797427,37.2514443,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="6B810E83C34269514030">
+			<name>SKH_ICH_OP_02</name>
+			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.484975,37.2469548,0 127.4849745426626,37.24805399372347,0 127.4834278027767,37.24804723737289,0 127.4834407016862,37.24693133272519,0 127.484975,37.2469548,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="21250297D24269514030">
 			<name>SKH_ICH_OP_03</name>
+			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.4798595705619,37.24980238528374,0 127.4798276156388,37.24676972135467,0 127.4817380296342,37.2467803411346,0 127.4817475159931,37.24980517492403,0 127.4798595705619,37.24980238528374,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="548A6353F04269514030">
+			<name>SKH_ICH_OP_04</name>
+			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.4852091,37.2497203,0 127.4852257,37.2483622,0 127.4871882,37.2483701,0 127.4871756,37.2497296,0 127.4852091,37.2497203,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="1C6F51AE654269514030">
+			<name>SKH_ICH_OP_05</name>
 			<styleUrl>#__managed_style_0F9CED97394278CF4A4F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
 							127.4841102901286,37.2499819551286,0 127.4879200552699,37.24997997851406,0 127.4879330279036,37.25149134619419,0 127.4841022,37.2515,0 127.4841102901286,37.2499819551286,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="37C56CC7484269514030">
+			<name>SKH_ICH_OP_06</name>
+			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.4827095,37.2496922,0 127.4827136,37.2483967,0 127.4850077,37.2483955,0 127.4850164872248,37.24968411315396,0 127.4827095,37.2496922,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -1439,110 +1508,32 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="21250297D24269514030">
-			<name>SKH_ICH_OP_02</name>
-			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.4798595705619,37.24980238528374,0 127.4798276156388,37.24676972135467,0 127.4817380296342,37.2467803411346,0 127.4817475159931,37.24980517492403,0 127.4798595705619,37.24980238528374,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="37C56CC7484269514030">
-			<name>SKH_ICH_OP_01</name>
-			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.4827095,37.2496922,0 127.4827136,37.2483967,0 127.4850077,37.2483955,0 127.4850164872248,37.24968411315396,0 127.4827095,37.2496922,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="4B8F87CEDD4269514030">
-			<name>SKH_ICH_OP_04</name>
-			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.4797427,37.2514443,0 127.4797427,37.2500277,0 127.4828987,37.2500277,0 127.4828987,37.2514443,0 127.4797427,37.2514443,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="548A6353F04269514030">
-			<name>SKH_ICH_OP_06</name>
-			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.4852091,37.2497203,0 127.4852257,37.2483622,0 127.4871882,37.2483701,0 127.4871756,37.2497296,0 127.4852091,37.2497203,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="6B810E83C34269514030">
-			<name>SKH_ICH_OP_05</name>
-			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.484975,37.2469548,0 127.4849745426626,37.24805399372347,0 127.4834278027767,37.24804723737289,0 127.4834407016862,37.24693133272519,0 127.484975,37.2469548,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
 	</Folder>
 	<Folder id="79485F03834269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_CJJ</name>
 		<open>1</open>
-		<Placemark id="86D998B9244269514030">
-			<name>SKH_CJJ_EX_01</name>
-			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.4314444960006,36.64983218771054,0 127.4338702544078,36.64982696911132,0 127.4338705240823,36.65090889299547,0 127.4314709477459,36.65090531906605,0 127.4314444960006,36.64983218771054,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="9E1EA0FBAD4269514030">
+		<Placemark id="A9C8F0354B4269514030">
 			<name>SKH_CJJ_OP_01</name>
 			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4236652,36.6485075,0 127.4250183,36.6483869,0 127.4252423,36.6500218,0 127.4238914,36.6501423,0 127.4236652,36.6485075,0 
+							127.4316253,36.6470268,0 127.4278012,36.6470535,0 127.4277877,36.6458126,0 127.4284428,36.6458073,0 127.428441,36.6456247,0 127.4316067,36.6456081,0 127.4316253,36.6470268,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="A9C8F0354B4269514030">
+		<Placemark id="9E1EA0FBAD4269514030">
 			<name>SKH_CJJ_OP_02</name>
 			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.4316253,36.6470268,0 127.4278012,36.6470535,0 127.4277877,36.6458126,0 127.4284428,36.6458073,0 127.428441,36.6456247,0 127.4316067,36.6456081,0 127.4316253,36.6470268,0 
+							127.4236652,36.6485075,0 127.4250183,36.6483869,0 127.4252423,36.6500218,0 127.4238914,36.6501423,0 127.4236652,36.6485075,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -1569,6 +1560,19 @@
 					<LinearRing>
 						<coordinates>
 							127.4323581,36.6563306,0 127.4325343,36.6547414,0 127.4349417,36.6549244,0 127.4347554,36.6565182,0 127.4323581,36.6563306,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="86D998B9244269514030">
+			<name>SKH_CJJ_EX_01</name>
+			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.4314444960006,36.64983218771054,0 127.4338702544078,36.64982696911132,0 127.4338705240823,36.65090889299547,0 127.4314709477459,36.65090531906605,0 127.4314444960006,36.64983218771054,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -1607,12 +1611,12 @@
 		<open>1</open>
 		<Placemark id="F50815B9EE4269514030">
 			<name>SKH_YIN_EX_01</name>
-			<styleUrl>#__managed_style_0D31D23BFB428D45C39B</styleUrl>
+			<styleUrl>#__managed_style_035D0272774292CC9AAF</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.3186406,37.1599045,0 127.3172996,37.1599175,0 127.3162805,37.1594805,0 127.3139929,37.1527064,0 127.3141608,37.1514519,0 127.313207,37.1486771,0 127.3111075,37.1454116,0 127.3221344,37.1429897,0 127.3265194,37.1551081,0 127.3276958,37.1555952,0 127.3284789,37.1576138,0 127.3186406,37.1599045,0 
+							127.3179076794612,37.15878095033005,0 127.3171855420929,37.1569370023885,0 127.3245611539538,37.15531271600427,0 127.3252504596098,37.15718533783891,0 127.3179076794612,37.15878095033005,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -1789,14 +1793,14 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="2D5B9C24F34269514030">
-			<name>SSE_PTK_EX_01</name>
-			<styleUrl>#__managed_style_0D9E827BA1428DB33F79</styleUrl>
+		<Placemark id="22FDC4FFFFC4269514030">
+			<name>SSE_PTK_OP_03</name>
+			<styleUrl>#__managed_style_0EBCC9907A42924A065C</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.0627462,37.0357638,0 127.0568884,37.0357886,0 127.056883,37.0339202,0 127.0627513,37.0339331,0 127.0627462,37.0357638,0 
+							127.0563073,37.0359889,0 127.0544513,37.0359978,0 127.0544292,37.0343399,0 127.0563183,37.0343575,0 127.0563073,37.0359889,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -1805,19 +1809,6 @@
 		<Placemark id="1E9450239814269514030">
 			<name>SSE_PTK_OP_04</name>
 			<styleUrl>#__managed_style_00A7FC3B814291B6F0E7</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.0639785,37.0334678,0 127.0567843,37.033462,0 127.0568184,37.0315637,0 127.0639849,37.0315702,0 127.0639785,37.0334678,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="2E6CAD35A44269514030">
-			<name>SSE_PTK_EX_03</name>
-			<styleUrl>#__managed_style_0D1E6CD0004291BAAA30</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1841,6 +1832,45 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
+		<Placemark id="2D5B9C24F34269514030">
+			<name>SSE_PTK_EX_01</name>
+			<styleUrl>#__managed_style_0D9E827BA1428DB33F79</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.0627462,37.0357638,0 127.0568884,37.0357886,0 127.056883,37.0339202,0 127.0627513,37.0339331,0 127.0627462,37.0357638,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="2F7DBE46B54269514030">
+			<name>SSE_PTK_EX_02</name>
+			<styleUrl>#__managed_style_07547C57A44292568ED0</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.0563073,37.0359889,0 127.0544513,37.0359978,0 127.0544292,37.0343399,0 127.0563183,37.0343575,0 127.0563073,37.0359889,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="2E6CAD35A44269514030">
+			<name>SSE_PTK_EX_03</name>
+			<styleUrl>#__managed_style_0D1E6CD0004291BAAA30</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							127.0639785,37.0334678,0 127.0567843,37.033462,0 127.0568184,37.0315637,0 127.0639849,37.0315702,0 127.0639785,37.0334678,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
 		<Placemark id="308ECF57C64269514030">
 			<name>SSE_PTK_EX_04</name>
 			<styleUrl>#__managed_style_040D5CC3FE429288B6FF</styleUrl>
@@ -1849,19 +1879,6 @@
 					<LinearRing>
 						<coordinates>
 							127.0640161,37.0297022,0 127.0567316,37.0297043,0 127.0567687,37.027796,0 127.0640161,37.0278605,0 127.0640161,37.0297022,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="20FD572A82A4269514030">
-			<name>SSE_PTK_EX_06</name>
-			<styleUrl>#__managed_style_013AE45B704291CB783F</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.0451099,37.0338391,0 127.0451291,37.0318094,0 127.0519865,37.0318094,0 127.0519865,37.0338084,0 127.0451099,37.0338391,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
@@ -1882,27 +1899,14 @@
 				</outerBoundaryIs>
 			</Polygon>
 		</Placemark>
-		<Placemark id="22FDC4FFFFC4269514030">
-			<name>SSE_PTK_OP_03</name>
-			<styleUrl>#__managed_style_0EBCC9907A42924A065C</styleUrl>
+		<Placemark id="20FD572A82A4269514030">
+			<name>SSE_PTK_EX_06</name>
+			<styleUrl>#__managed_style_013AE45B704291CB783F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
 						<coordinates>
-							127.0563073,37.0359889,0 127.0544513,37.0359978,0 127.0544292,37.0343399,0 127.0563183,37.0343575,0 127.0563073,37.0359889,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="2F7DBE46B54269514030">
-			<name>SSE_PTK_EX_02</name>
-			<styleUrl>#__managed_style_07547C57A44292568ED0</styleUrl>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							127.0563073,37.0359889,0 127.0544513,37.0359978,0 127.0544292,37.0343399,0 127.0563183,37.0343575,0 127.0563073,37.0359889,0 
+							127.0451099,37.0338391,0 127.0451291,37.0318094,0 127.0519865,37.0318094,0 127.0519865,37.0338084,0 127.0451099,37.0338391,0 
 						</coordinates>
 					</LinearRing>
 				</outerBoundaryIs>
