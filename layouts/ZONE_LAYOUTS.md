@@ -12,7 +12,7 @@ This folder holds Mandata's geographic zone layouts for Korean semiconductor cam
 
 | Path | What it contains | Source | Date (KST) |
 | --- | --- | --- | --- |
-| `README.md` | This knowledge base | Written by hand | 2026-10-12 |
+| `ZONE_LAYOUTS.md` | This knowledge base | Written by hand | 2026-10-12 |
 | `master_layout/` | The master zone layout (the only populated layout) | — | 2026-10-12 |
 | `master_layout/sk_hynix_polygon_boundary.kml` | 34 zone polygons with attributes, plus 2 test shapes. Contains both SK hynix **and** Samsung zones despite the name | Google Earth export, itself "converted from `semiconductor_draft_v1.geojson`" (per the KML folder description) | 2026-10-08 |
 | `master_layout/SEMICONDUCTOR_ZONE_MASTER_LOCKED.xlsx` | Master zone table: sheets `ZONE_MASTER` (34 rows) and `ZONE_LINEAGE_MASTER` (empty) | Populated from the KML above (see §6) | 2026-10-12 |
@@ -297,7 +297,7 @@ SELECT zone_code FROM ft_list_zone WHERE NOT ST_IsValid(polygon);
 | 2 | `production_unit_code` `SKH_ICH_PCK` for unit P&T4 breaks the `<campus_code>_<unit name>` pattern (other P&T units use `…_P&Tn`) | `SKH_ICH_OP_04` | TBD |
 | 3 | KML is named `sk_hynix…` but 21 of its 34 zones are Samsung (`SSE_*`) | `sk_hynix_polygon_boundary.kml` | TBD |
 | 4 | `zone_type` `RD` is used (and colour-coded in the KML) but isn't defined in the schema (`OP`/`EX`/`CD`); `CD` doesn't occur in the data | `SKH_ICH_OP_01` (RD row) | TBD |
-| 5 | Schema examples differ from the real data format: spec `ICH_EX_001` / `ICH` / `Icheon M16 Front-End Fab` vs data `SKH_ICH_EX_01` / `SKH_ICH` / `M16`. The KML's Location confidence uses lowercase `high`/`medium`, while the spec examples use `HIGH`. This README uses the real format | §4 | TBD |
+| 5 | Schema examples differ from the real data format: spec `ICH_EX_001` / `ICH` / `Icheon M16 Front-End Fab` vs data `SKH_ICH_EX_01` / `SKH_ICH` / `M16`. The KML's Location confidence uses lowercase `high`/`medium`, while the spec examples use `HIGH`. This document uses the real format | §4 | TBD |
 | 6 | `record_id`, the company fields, the campus name/address, both confidence columns and all dates are `NULL`; they must be filled before database loading (primary key and point-in-time logic depend on them) | `ZONE_MASTER`, all rows | TBD |
 | 7 | KML "Location confidence" (31 `high`, 3 `medium`) has no matching column and was not ingested | KML attribute | TBD |
 | 8 | Other unit codes that don't follow `<campus_code>_<unit name>`: `SKH_YIN_EX` (EXPANSION), `SSE_GHG_S1_01` / `SSE_GHG_S1_02` (both S1; likely deliberate, one fab split across two outlines) | `SKH_YIN_EX_01`, `SSE_GHG_OP_02/03` | TBD |
