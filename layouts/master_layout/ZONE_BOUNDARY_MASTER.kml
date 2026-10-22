@@ -52,8 +52,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_ONY_005</h1>
+  <h1>zone_code: SSE_ONY_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: MEDIUM</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-10-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-10-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-08-12</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -77,8 +88,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_010</h1>
+  <h1>zone_code: SSE_PTK_EX_05</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2022-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2022-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-08-12</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -102,8 +124,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_009</h1>
+  <h1>zone_code: SSE_PTK_EX_04</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2021-10-18</h1>
   <h1>effective_to: 2026-06-30</h1>
+  <h1>pit_available_from: 2021-10-18</h1>
+  <h1>pit_available_to: 2026-06-30</h1>
   <h1>imagery_acquired_date: 2021-11-06</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -138,8 +171,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_007</h1>
+  <h1>zone_code: SSE_PTK_EX_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2021-06-30</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2021-06-30</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -163,8 +207,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_007</h1>
+  <h1>zone_code: SSE_PTK_EX_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2021-06-30</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2021-06-30</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -189,8 +244,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_006</h1>
+  <h1>zone_code: SSE_PTK_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2020-08-29</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2020-08-29</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -224,8 +290,55 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_005</h1>
+  <h1>zone_code: SSE_PTK_MX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: MX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2026-08-12</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_A0BAE902D0EBFBC3DDE0_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_011</h1>
+  <h1>zone_code: SSE_PTK_EX_06</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2026-07-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-08-12</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -239,6 +352,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_013AE45B704291CB783F_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_A0BAE902D0EBFBC3DDE0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_A0BAE902D0EBFBC3DDE0_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_A0BAE902D0EBFBC3DDE0_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_013AE45B704291CB783F_highlight">
@@ -260,8 +383,56 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_005</h1>
+  <h1>zone_code: SSE_PTK_MX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: MX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2026-08-12</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_A0BAE902D0EBFBC3DDE0_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_011</h1>
+  <h1>zone_code: SSE_PTK_EX_06</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2026-07-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-08-12</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -286,8 +457,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_004</h1>
+  <h1>zone_code: SSE_PTK_OP_04</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SSE_PTK_PU_004</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2022-09-07</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2022-09-07</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2023-04-27</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -312,8 +494,93 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_003</h1>
+  <h1>zone_code: SKH_ICH_OP_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_003</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_52230665D9C3D7850A33_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.125</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_006</h1>
+  <h1>zone_code: SKH_ICH_OP_06</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_006</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_B6CA982BB66E2F3AF4AE_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.125</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_008</h1>
+  <h1>zone_code: SKH_ICH_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -337,8 +604,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_004</h1>
+  <h1>zone_code: SSE_PTK_OP_04</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SSE_PTK_PU_004</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2022-09-07</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2022-09-07</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2023-04-27</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -363,8 +641,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_ONY_005</h1>
+  <h1>zone_code: SSE_ONY_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: MEDIUM</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-10-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-10-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-08-12</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -388,8 +677,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_003</h1>
+  <h1>zone_code: SSE_PTK_OP_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SSE_PTK_PU_003</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2021-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2021-11-06</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -413,8 +713,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_007</h1>
+  <h1>zone_code: SKH_CJJ_EX_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-04-22</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-04-22</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2025-01-01</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -449,8 +760,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_002</h1>
+  <h1>zone_code: SSE_PTK_OP_02</h1>
+  <h1>production_unit_name: P2</h1>
+  <h1>production_unit_code: SSE_PTK_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: MIXED</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-08-30</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-08-30</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-12-25</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -474,8 +796,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_002</h1>
+  <h1>zone_code: SSE_PTK_OP_02</h1>
+  <h1>production_unit_name: P2</h1>
+  <h1>production_unit_code: SSE_PTK_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: MIXED</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-08-30</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-08-30</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-12-25</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -500,8 +833,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_HWA_007</h1>
+  <h1>zone_code: SSE_HWA_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2020-01-31</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2020-01-31</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -567,8 +911,648 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_GHG_001</h1>
+  <h1>zone_code: SSE_GHG_OP_01</h1>
+  <h1>production_unit_name: 6</h1>
+  <h1>production_unit_code: SSE_GHG_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_101780BFC2E15C6566F0_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_GHG_002</h1>
+  <h1>zone_code: SSE_GHG_OP_02</h1>
+  <h1>production_unit_name: S1</h1>
+  <h1>production_unit_code: SSE_GHG_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_815568F69FE3BA7A0DC7_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_GHG_003</h1>
+  <h1>zone_code: SSE_GHG_OP_03</h1>
+  <h1>production_unit_name: S1</h1>
+  <h1>production_unit_code: SSE_GHG_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_8ECB2D118BBC7F412FDD_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_GHG_004</h1>
+  <h1>zone_code: SSE_GHG_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2CA414A2E65955DE8DA2_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_001</h1>
+  <h1>zone_code: SSE_HWA_OP_01</h1>
+  <h1>production_unit_name: 12_13</h1>
+  <h1>production_unit_code: SSE_HWA_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_E80A16392A852EBF35B4_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_002</h1>
+  <h1>zone_code: SSE_HWA_OP_02</h1>
+  <h1>production_unit_name: S4</h1>
+  <h1>production_unit_code: SSE_HWA_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_616454AEEC412E41A289_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_003</h1>
+  <h1>zone_code: SSE_HWA_OP_03</h1>
+  <h1>production_unit_name: 15</h1>
+  <h1>production_unit_code: SSE_HWA_PU_003</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_A38339A8AF511F62988C_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_004</h1>
+  <h1>zone_code: SSE_HWA_OP_04</h1>
+  <h1>production_unit_name: 16</h1>
+  <h1>production_unit_code: SSE_HWA_PU_004</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_96D06C50C4392666E0A3_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_005</h1>
+  <h1>zone_code: SSE_HWA_OP_05</h1>
+  <h1>production_unit_name: 17_S3</h1>
+  <h1>production_unit_code: SSE_HWA_PU_005</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_9A16DD3001249468A3EF_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_008</h1>
+  <h1>zone_code: SSE_HWA_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_E5958FF5998175495915_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_001</h1>
+  <h1>zone_code: SSE_PTK_OP_01</h1>
+  <h1>production_unit_name: P1</h1>
+  <h1>production_unit_code: SSE_PTK_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_FD5DBDC13B29B4290867_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_012</h1>
+  <h1>zone_code: SSE_PTK_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4BC404E4F183844023E3_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_013</h1>
+  <h1>zone_code: SSE_PTK_CD_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_79A1430A8AF7B1F1614B_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_001</h1>
+  <h1>zone_code: SSE_ONY_OP_01</h1>
+  <h1>production_unit_name: O1</h1>
+  <h1>production_unit_code: SSE_ONY_PU_001</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_207D222E3AEC7C04A35B_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_002</h1>
+  <h1>zone_code: SSE_ONY_OP_02</h1>
+  <h1>production_unit_name: O2</h1>
+  <h1>production_unit_code: SSE_ONY_PU_002</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0FB10E539A9E802BE8A4_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_003</h1>
+  <h1>zone_code: SSE_ONY_OP_03</h1>
+  <h1>production_unit_name: O3</h1>
+  <h1>production_unit_code: SSE_ONY_PU_003</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_DDB363CEA81C83BAB5F0_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_004</h1>
+  <h1>zone_code: SSE_ONY_OP_04</h1>
+  <h1>production_unit_name: O4</h1>
+  <h1>production_unit_code: SSE_ONY_PU_004</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_A887BA26B09738B3FC3F_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_006</h1>
+  <h1>zone_code: SSE_ONY_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -592,8 +1576,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_HWA_006</h1>
+  <h1>zone_code: SSE_HWA_OP_06</h1>
+  <h1>production_unit_name: V1</h1>
+  <h1>production_unit_code: SSE_HWA_PU_006</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-02-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-02-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-12-15</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -618,8 +1613,56 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_YIN_001</h1>
+  <h1>zone_code: SKH_YIN_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2025-02-24</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2025-02-24</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2026-04-15</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_7738ACED2EC8FDFE4C7B_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_YIN_002</h1>
+  <h1>zone_code: SKH_YIN_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2025-02-24</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2025-02-24</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-04-15</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -643,8 +1686,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_008</h1>
+  <h1>zone_code: SSE_PTK_EX_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2022-09-06</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2022-09-06</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -669,8 +1723,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_003</h1>
+  <h1>zone_code: SSE_PTK_OP_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SSE_PTK_PU_003</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2021-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2021-11-06</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -684,6 +1749,26 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_077704A1DC4278AD22D4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_52230665D9C3D7850A33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_52230665D9C3D7850A33_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_52230665D9C3D7850A33_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_B6CA982BB66E2F3AF4AE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_B6CA982BB66E2F3AF4AE_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_B6CA982BB66E2F3AF4AE_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_035D0272774292CC9AAF_normal">
@@ -704,8 +1789,55 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_YIN_001</h1>
+  <h1>zone_code: SKH_YIN_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2025-02-24</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2025-02-24</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2026-04-15</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_7738ACED2EC8FDFE4C7B_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_YIN_002</h1>
+  <h1>zone_code: SKH_YIN_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2025-02-24</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2025-02-24</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-04-15</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -719,6 +1851,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_035D0272774292CC9AAF_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_7738ACED2EC8FDFE4C7B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_7738ACED2EC8FDFE4C7B_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_7738ACED2EC8FDFE4C7B_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_0D75232CCA428D60C094_highlight">
@@ -740,8 +1882,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_HWA_006</h1>
+  <h1>zone_code: SSE_HWA_OP_06</h1>
+  <h1>production_unit_name: V1</h1>
+  <h1>production_unit_code: SSE_HWA_PU_006</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-02-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-02-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-12-15</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -765,8 +1918,163 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_008</h1>
+  <h1>zone_code: SKH_CJJ_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_740F9D0ED6B6384C6D0F_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_009</h1>
+  <h1>zone_code: SKH_CJJ_CD_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_AD4C839ED8ECD155CEAA_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_010</h1>
+  <h1>zone_code: SKH_CJJ_CD_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_03650F670D311F14077A_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_011</h1>
+  <h1>zone_code: SKH_CJJ_CD_04</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_F8ACAFC48F3765CADE38_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_012</h1>
+  <h1>zone_code: SKH_CJJ_CD_05</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2019-05-10</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -791,8 +2099,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_010</h1>
+  <h1>zone_code: SSE_PTK_EX_05</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2022-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2022-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2026-08-12</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -817,8 +2136,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_007</h1>
+  <h1>zone_code: SKH_CJJ_EX_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-04-22</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-04-22</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2025-01-01</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -842,8 +2172,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_006</h1>
+  <h1>zone_code: SSE_PTK_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2020-08-29</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2020-08-29</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -868,8 +2209,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_004</h1>
+  <h1>zone_code: SKH_CJJ_OP_04</h1>
+  <h1>production_unit_name: M15X</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_004</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-02-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-02-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2025-01-01</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -893,8 +2245,631 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_GHG_001</h1>
+  <h1>zone_code: SSE_GHG_OP_01</h1>
+  <h1>production_unit_name: 6</h1>
+  <h1>production_unit_code: SSE_GHG_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_101780BFC2E15C6566F0_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_GHG_002</h1>
+  <h1>zone_code: SSE_GHG_OP_02</h1>
+  <h1>production_unit_name: S1</h1>
+  <h1>production_unit_code: SSE_GHG_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_815568F69FE3BA7A0DC7_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_GHG_003</h1>
+  <h1>zone_code: SSE_GHG_OP_03</h1>
+  <h1>production_unit_name: S1</h1>
+  <h1>production_unit_code: SSE_GHG_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_8ECB2D118BBC7F412FDD_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_GHG_004</h1>
+  <h1>zone_code: SSE_GHG_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2CA414A2E65955DE8DA2_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_001</h1>
+  <h1>zone_code: SSE_HWA_OP_01</h1>
+  <h1>production_unit_name: 12_13</h1>
+  <h1>production_unit_code: SSE_HWA_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_E80A16392A852EBF35B4_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_002</h1>
+  <h1>zone_code: SSE_HWA_OP_02</h1>
+  <h1>production_unit_name: S4</h1>
+  <h1>production_unit_code: SSE_HWA_PU_002</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: LOGIC</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_616454AEEC412E41A289_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_003</h1>
+  <h1>zone_code: SSE_HWA_OP_03</h1>
+  <h1>production_unit_name: 15</h1>
+  <h1>production_unit_code: SSE_HWA_PU_003</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_A38339A8AF511F62988C_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_004</h1>
+  <h1>zone_code: SSE_HWA_OP_04</h1>
+  <h1>production_unit_name: 16</h1>
+  <h1>production_unit_code: SSE_HWA_PU_004</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_96D06C50C4392666E0A3_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_005</h1>
+  <h1>zone_code: SSE_HWA_OP_05</h1>
+  <h1>production_unit_name: 17_S3</h1>
+  <h1>production_unit_code: SSE_HWA_PU_005</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_9A16DD3001249468A3EF_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_HWA_008</h1>
+  <h1>zone_code: SSE_HWA_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_E5958FF5998175495915_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_001</h1>
+  <h1>zone_code: SSE_PTK_OP_01</h1>
+  <h1>production_unit_name: P1</h1>
+  <h1>production_unit_code: SSE_PTK_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_FD5DBDC13B29B4290867_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_012</h1>
+  <h1>zone_code: SSE_PTK_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4BC404E4F183844023E3_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_PTK_013</h1>
+  <h1>zone_code: SSE_PTK_CD_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_79A1430A8AF7B1F1614B_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_001</h1>
+  <h1>zone_code: SSE_ONY_OP_01</h1>
+  <h1>production_unit_name: O1</h1>
+  <h1>production_unit_code: SSE_ONY_PU_001</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_207D222E3AEC7C04A35B_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_002</h1>
+  <h1>zone_code: SSE_ONY_OP_02</h1>
+  <h1>production_unit_name: O2</h1>
+  <h1>production_unit_code: SSE_ONY_PU_002</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0FB10E539A9E802BE8A4_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_003</h1>
+  <h1>zone_code: SSE_ONY_OP_03</h1>
+  <h1>production_unit_name: O3</h1>
+  <h1>production_unit_code: SSE_ONY_PU_003</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_DDB363CEA81C83BAB5F0_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_004</h1>
+  <h1>zone_code: SSE_ONY_OP_04</h1>
+  <h1>production_unit_name: O4</h1>
+  <h1>production_unit_code: SSE_ONY_PU_004</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-02-24</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_A887BA26B09738B3FC3F_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SSE_ONY_006</h1>
+  <h1>zone_code: SSE_ONY_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -919,8 +2894,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_007</h1>
+  <h1>zone_code: SKH_ICH_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2021-06-30</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2021-06-30</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -975,8 +2961,130 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_001</h1>
+  <h1>zone_code: SKH_CJJ_OP_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_001</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_E0232394A0BF0C06B98D_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_002</h1>
+  <h1>zone_code: SKH_CJJ_OP_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_002</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_8992A9E612A675BB8136_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_003</h1>
+  <h1>zone_code: SKH_CJJ_OP_03</h1>
+  <h1>production_unit_name: M15</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_003</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_81AE49E253E34AD18D85_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_005</h1>
+  <h1>zone_code: SKH_CJJ_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-06-09</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1040,8 +3148,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_006</h1>
+  <h1>zone_code: SKH_CJJ_EX_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2022-10-01</h1>
   <h1>effective_to: 2026-01-31</h1>
+  <h1>pit_available_from: 2022-10-01</h1>
+  <h1>pit_available_to: 2026-01-31</h1>
   <h1>imagery_acquired_date: 2023-02-23</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1066,8 +3185,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_008</h1>
+  <h1>zone_code: SSE_PTK_EX_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2022-09-06</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2022-09-06</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1092,8 +3222,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_006</h1>
+  <h1>zone_code: SKH_CJJ_EX_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2022-10-01</h1>
   <h1>effective_to: 2026-01-31</h1>
+  <h1>pit_available_from: 2022-10-01</h1>
+  <h1>pit_available_to: 2026-01-31</h1>
   <h1>imagery_acquired_date: 2023-02-23</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1107,6 +3248,176 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_039820C921428D5274D9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_101780BFC2E15C6566F0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_101780BFC2E15C6566F0_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_101780BFC2E15C6566F0_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_815568F69FE3BA7A0DC7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_815568F69FE3BA7A0DC7_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_815568F69FE3BA7A0DC7_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_8ECB2D118BBC7F412FDD">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_8ECB2D118BBC7F412FDD_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_8ECB2D118BBC7F412FDD_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_2CA414A2E65955DE8DA2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2CA414A2E65955DE8DA2_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2CA414A2E65955DE8DA2_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_E80A16392A852EBF35B4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_E80A16392A852EBF35B4_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_E80A16392A852EBF35B4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_616454AEEC412E41A289">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_616454AEEC412E41A289_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_616454AEEC412E41A289_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_A38339A8AF511F62988C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_A38339A8AF511F62988C_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_A38339A8AF511F62988C_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_96D06C50C4392666E0A3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_96D06C50C4392666E0A3_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_96D06C50C4392666E0A3_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_9A16DD3001249468A3EF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_9A16DD3001249468A3EF_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_9A16DD3001249468A3EF_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_E5958FF5998175495915">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_E5958FF5998175495915_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_E5958FF5998175495915_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_FD5DBDC13B29B4290867">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_FD5DBDC13B29B4290867_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_FD5DBDC13B29B4290867_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_4BC404E4F183844023E3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4BC404E4F183844023E3_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_4BC404E4F183844023E3_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_79A1430A8AF7B1F1614B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_79A1430A8AF7B1F1614B_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_79A1430A8AF7B1F1614B_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_207D222E3AEC7C04A35B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_207D222E3AEC7C04A35B_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_207D222E3AEC7C04A35B_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0FB10E539A9E802BE8A4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0FB10E539A9E802BE8A4_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0FB10E539A9E802BE8A4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_DDB363CEA81C83BAB5F0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_DDB363CEA81C83BAB5F0_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_DDB363CEA81C83BAB5F0_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_A887BA26B09738B3FC3F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_A887BA26B09738B3FC3F_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_A887BA26B09738B3FC3F_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_0D15EE4714428CF3D584_normal">
@@ -1127,8 +3438,127 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_001</h1>
+  <h1>zone_code: SKH_CJJ_OP_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_001</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_E0232394A0BF0C06B98D_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_002</h1>
+  <h1>zone_code: SKH_CJJ_OP_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_002</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_8992A9E612A675BB8136_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_003</h1>
+  <h1>zone_code: SKH_CJJ_OP_03</h1>
+  <h1>production_unit_name: M15</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_003</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-06-09</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_81AE49E253E34AD18D85_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_005</h1>
+  <h1>zone_code: SKH_CJJ_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-06-09</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1142,6 +3572,46 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#__managed_style_038E321F5942933961A4_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_740F9D0ED6B6384C6D0F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_740F9D0ED6B6384C6D0F_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_740F9D0ED6B6384C6D0F_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_AD4C839ED8ECD155CEAA">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_AD4C839ED8ECD155CEAA_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_AD4C839ED8ECD155CEAA_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_03650F670D311F14077A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_03650F670D311F14077A_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_03650F670D311F14077A_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_F8ACAFC48F3765CADE38">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_F8ACAFC48F3765CADE38_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_F8ACAFC48F3765CADE38_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_077704A1DC4278AD22D4_normal">
@@ -1162,8 +3632,91 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_003</h1>
+  <h1>zone_code: SKH_ICH_OP_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_003</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_52230665D9C3D7850A33_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>0.75</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_006</h1>
+  <h1>zone_code: SKH_ICH_OP_06</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_006</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_B6CA982BB66E2F3AF4AE_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>0.75</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_008</h1>
+  <h1>zone_code: SKH_ICH_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1188,8 +3741,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_005</h1>
+  <h1>zone_code: SKH_ICH_OP_05</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_005</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2021-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2021-12-06</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1213,8 +3777,91 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_001</h1>
+  <h1>zone_code: SKH_ICH_OP_01</h1>
+  <h1>production_unit_name: M10</h1>
+  <h1>production_unit_code: SKH_ICH_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0D2AA2529EE36AA84AEE_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_002</h1>
+  <h1>zone_code: SKH_ICH_OP_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_002</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_D72E7F9D60FA9AE92815_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_004</h1>
+  <h1>zone_code: SKH_ICH_OP_04</h1>
+  <h1>production_unit_name: P&T4</h1>
+  <h1>production_unit_code: SKH_ICH_PU_004</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1238,8 +3885,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_007</h1>
+  <h1>zone_code: SKH_ICH_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2021-06-30</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2021-06-30</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1263,8 +3921,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_005</h1>
+  <h1>zone_code: SKH_ICH_OP_05</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_005</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2021-07-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2021-12-06</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1299,8 +3968,167 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_008</h1>
+  <h1>zone_code: SKH_CJJ_CD_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_740F9D0ED6B6384C6D0F_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_009</h1>
+  <h1>zone_code: SKH_CJJ_CD_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_AD4C839ED8ECD155CEAA_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_010</h1>
+  <h1>zone_code: SKH_CJJ_CD_03</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_03650F670D311F14077A_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_011</h1>
+  <h1>zone_code: SKH_CJJ_CD_04</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2019-05-10</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_F8ACAFC48F3765CADE38_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_CJJ_012</h1>
+  <h1>zone_code: SKH_CJJ_CD_05</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: CD</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2019-05-10</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1325,8 +4153,93 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_ICH_001</h1>
+  <h1>zone_code: SKH_ICH_OP_01</h1>
+  <h1>production_unit_name: M10</h1>
+  <h1>production_unit_code: SKH_ICH_PU_001</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0D2AA2529EE36AA84AEE_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_002</h1>
+  <h1>zone_code: SKH_ICH_OP_02</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: SKH_ICH_PU_002</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
+  <h1>imagery_acquired_date: 2020-03-08</h1>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_D72E7F9D60FA9AE92815_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LineStyle>
+				<color>ff1e87e8</color>
+				<width>2.25</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>661e87e8</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+  <h1>record_id: SKH_ICH_004</h1>
+  <h1>zone_code: SKH_ICH_OP_04</h1>
+  <h1>production_unit_name: P&T4</h1>
+  <h1>production_unit_code: SKH_ICH_PU_004</h1>
+  <h1>production_unit_type: PACKAGING_TEST</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: UNKNOWN</h1>
+  <h1>product_association_confidence: NULL</h1>
+  <h1>effective_from: 2020-01-01</h1>
+  <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2020-03-08</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1352,6 +4265,36 @@
 			<styleUrl>#__managed_style_0D15EE4714428CF3D584_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="__managed_style_E0232394A0BF0C06B98D">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_E0232394A0BF0C06B98D_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_E0232394A0BF0C06B98D_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_8992A9E612A675BB8136">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_8992A9E612A675BB8136_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_8992A9E612A675BB8136_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_81AE49E253E34AD18D85">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_81AE49E253E34AD18D85_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_81AE49E253E34AD18D85_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<gx:CascadingStyle kml:id="__managed_style_06962B2C90428D63E1A0_normal">
 		<ex:extension>base64;EgIYAQ</ex:extension>
 		<Style>
@@ -1370,8 +4313,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_HWA_007</h1>
+  <h1>zone_code: SSE_HWA_EX_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: 2020-01-31</h1>
+  <h1>pit_available_from: 2020-01-01</h1>
+  <h1>pit_available_to: 2020-01-31</h1>
   <h1>imagery_acquired_date: 2019-02-24</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1395,8 +4349,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SKH_CJJ_004</h1>
+  <h1>zone_code: SKH_CJJ_OP_04</h1>
+  <h1>production_unit_name: M15X</h1>
+  <h1>production_unit_code: SKH_CJJ_PU_004</h1>
+  <h1>production_unit_type: FRONT_END_FAB</h1>
+  <h1>zone_type: OP</h1>
+  <h1>zone_type_confidence: HIGH</h1>
+  <h1>primary_product_association: DRAM</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2026-02-01</h1>
   <h1>effective_to: NULL</h1>
+  <h1>pit_available_from: 2026-02-01</h1>
+  <h1>pit_available_to: NULL</h1>
   <h1>imagery_acquired_date: 2025-01-01</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1421,8 +4386,19 @@
 			<BalloonStyle>
 				<text><![CDATA[<!DOCTYPE html>
 <html>
+  <h1>record_id: SSE_PTK_009</h1>
+  <h1>zone_code: SSE_PTK_EX_04</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: EX</h1>
+  <h1>zone_type_confidence: NULL</h1>
+  <h1>primary_product_association: NULL</h1>
+  <h1>product_association_confidence: NULL</h1>
   <h1>effective_from: 2021-10-18</h1>
   <h1>effective_to: 2026-06-30</h1>
+  <h1>pit_available_from: 2021-10-18</h1>
+  <h1>pit_available_to: 2026-06-30</h1>
   <h1>imagery_acquired_date: 2021-11-06</h1>
 </html>]]></text>
 			</BalloonStyle>
@@ -1458,6 +4434,26 @@
 			<styleUrl>#__managed_style_095306852D4278E3BA58_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="__managed_style_0D2AA2529EE36AA84AEE">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0D2AA2529EE36AA84AEE_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0D2AA2529EE36AA84AEE_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_D72E7F9D60FA9AE92815">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_D72E7F9D60FA9AE92815_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_D72E7F9D60FA9AE92815_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder id="0416B333D24269514030">
 		<ex:extension>base64;GgA</ex:extension>
 		<name>SKH_ICH</name>
@@ -1477,7 +4473,7 @@
 		</Placemark>
 		<Placemark id="6B810E83C34269514030">
 			<name>SKH_ICH_OP_02</name>
-			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
+			<styleUrl>#__managed_style_0D2AA2529EE36AA84AEE</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1503,7 +4499,7 @@
 		</Placemark>
 		<Placemark id="548A6353F04269514030">
 			<name>SKH_ICH_OP_04</name>
-			<styleUrl>#__managed_style_095306852D4278E3BA58</styleUrl>
+			<styleUrl>#__managed_style_D72E7F9D60FA9AE92815</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1529,7 +4525,7 @@
 		</Placemark>
 		<Placemark id="37C56CC7484269514030">
 			<name>SKH_ICH_OP_06</name>
-			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
+			<styleUrl>#__managed_style_52230665D9C3D7850A33</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1555,7 +4551,7 @@
 		</Placemark>
 		<Placemark id="319FD068D74269514030">
 			<name>SKH_ICH_CD_01</name>
-			<styleUrl>#__managed_style_077704A1DC4278AD22D4</styleUrl>
+			<styleUrl>#__managed_style_B6CA982BB66E2F3AF4AE</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1586,7 +4582,7 @@
 		</Placemark>
 		<Placemark id="9E1EA0FBAD4269514030">
 			<name>SKH_CJJ_OP_02</name>
-			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
+			<styleUrl>#__managed_style_E0232394A0BF0C06B98D</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1599,7 +4595,7 @@
 		</Placemark>
 		<Placemark id="BC12893AE24269514030">
 			<name>SKH_CJJ_OP_03</name>
-			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
+			<styleUrl>#__managed_style_8992A9E612A675BB8136</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1625,7 +4621,7 @@
 		</Placemark>
 		<Placemark id="86D998B9244269514030">
 			<name>SKH_CJJ_EX_01</name>
-			<styleUrl>#__managed_style_0D15EE4714428CF3D584</styleUrl>
+			<styleUrl>#__managed_style_81AE49E253E34AD18D85</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1677,7 +4673,7 @@
 		</Placemark>
 		<Placemark id="33B1F28AF94269514030">
 			<name>SKH_CJJ_CD_02</name>
-			<styleUrl>#__managed_style_038E321F5942933961A4</styleUrl>
+			<styleUrl>#__managed_style_740F9D0ED6B6384C6D0F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1690,7 +4686,7 @@
 		</Placemark>
 		<Placemark id="34C2039B0A4269514030">
 			<name>SKH_CJJ_CD_03</name>
-			<styleUrl>#__managed_style_038E321F5942933961A4</styleUrl>
+			<styleUrl>#__managed_style_AD4C839ED8ECD155CEAA</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1703,7 +4699,7 @@
 		</Placemark>
 		<Placemark id="35D314AC1B4269514030">
 			<name>SKH_CJJ_CD_04</name>
-			<styleUrl>#__managed_style_038E321F5942933961A4</styleUrl>
+			<styleUrl>#__managed_style_03650F670D311F14077A</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1716,7 +4712,7 @@
 		</Placemark>
 		<Placemark id="36E425BD2C4269514030">
 			<name>SKH_CJJ_CD_05</name>
-			<styleUrl>#__managed_style_038E321F5942933961A4</styleUrl>
+			<styleUrl>#__managed_style_F8ACAFC48F3765CADE38</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1747,7 +4743,7 @@
 		</Placemark>
 		<Placemark id="37F536CE3D4269514030">
 			<name>SKH_YIN_CD_01</name>
-			<styleUrl>#__managed_style_035D0272774292CC9AAF</styleUrl>
+			<styleUrl>#__managed_style_7738ACED2EC8FDFE4C7B</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1778,7 +4774,7 @@
 		</Placemark>
 		<Placemark id="1256C9C34E04269514030">
 			<name>SSE_GHG_OP_02</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_101780BFC2E15C6566F0</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1791,7 +4787,7 @@
 		</Placemark>
 		<Placemark id="133B31DCDEC4269514030">
 			<name>SSE_GHG_OP_03</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_815568F69FE3BA7A0DC7</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1804,7 +4800,7 @@
 		</Placemark>
 		<Placemark id="3E5B9C24934269514030">
 			<name>SSE_GHG_CD_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_8ECB2D118BBC7F412FDD</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1822,7 +4818,7 @@
 		<open>1</open>
 		<Placemark id="15956677C184269514030">
 			<name>SSE_HWA_OP_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_2CA414A2E65955DE8DA2</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1835,7 +4831,7 @@
 		</Placemark>
 		<Placemark id="16B7A250C734269514030">
 			<name>SSE_HWA_OP_02</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_E80A16392A852EBF35B4</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1848,7 +4844,7 @@
 		</Placemark>
 		<Placemark id="17C026EF7844269514030">
 			<name>SSE_HWA_OP_03</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_616454AEEC412E41A289</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1861,7 +4857,7 @@
 		</Placemark>
 		<Placemark id="186C3102F6E4269514030">
 			<name>SSE_HWA_OP_04</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_A38339A8AF511F62988C</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1874,7 +4870,7 @@
 		</Placemark>
 		<Placemark id="19681442EF84269514030">
 			<name>SSE_HWA_OP_05</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_96D06C50C4392666E0A3</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1913,7 +4909,7 @@
 		</Placemark>
 		<Placemark id="390647DF4E4269514030">
 			<name>SSE_HWA_CD_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_9A16DD3001249468A3EF</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -1931,7 +4927,7 @@
 		<open>1</open>
 		<Placemark id="1CBFBE170214269514030">
 			<name>SSE_PTK_OP_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_E5958FF5998175495915</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2063,7 +5059,7 @@
 		</Placemark>
 		<Placemark id="20FD572A82A4269514030">
 			<name>SSE_PTK_EX_06</name>
-			<styleUrl>#__managed_style_013AE45B704291CB783F</styleUrl>
+			<styleUrl>#__managed_style_A0BAE902D0EBFBC3DDE0</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2076,7 +5072,7 @@
 		</Placemark>
 		<Placemark id="3B2869F1604269514030">
 			<name>SSE_PTK_CD_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_FD5DBDC13B29B4290867</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2089,7 +5085,7 @@
 		</Placemark>
 		<Placemark id="3C397A02714269514030">
 			<name>SSE_PTK_CD_02</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_4BC404E4F183844023E3</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2107,7 +5103,7 @@
 		<open>1</open>
 		<Placemark id="24E856716F94269514030">
 			<name>SSE_ONY_OP_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_79A1430A8AF7B1F1614B</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2120,7 +5116,7 @@
 		</Placemark>
 		<Placemark id="258401FA6204269514030">
 			<name>SSE_ONY_OP_02</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_207D222E3AEC7C04A35B</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2133,7 +5129,7 @@
 		</Placemark>
 		<Placemark id="26A5F1F12924269514030">
 			<name>SSE_ONY_OP_03</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_0FB10E539A9E802BE8A4</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2146,7 +5142,7 @@
 		</Placemark>
 		<Placemark id="27EEA200B5E4269514030">
 			<name>SSE_ONY_OP_04</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_DDB363CEA81C83BAB5F0</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
@@ -2172,7 +5168,7 @@
 		</Placemark>
 		<Placemark id="3D4A8B13824269514030">
 			<name>SSE_ONY_CD_01</name>
-			<styleUrl>#__managed_style_039820C921428D5274D9</styleUrl>
+			<styleUrl>#__managed_style_A887BA26B09738B3FC3F</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>
 					<LinearRing>
