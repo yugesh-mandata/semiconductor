@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+._*
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Claude
+Claude outputs/
+
+# Python virtual environment
+.venv/
