@@ -32,6 +32,8 @@ ENUMS = {
     "zone_type_confidence": {"HIGH", "MEDIUM", "LOW", "NULL"},
     "product_association_confidence": {"HIGHLY_ASSOC", "ASSOC", "UNCERTAIN", "NULL"},
 }
+# Combined product values such as DRAM_NAND_LOGIC are allowed for now instead of MIXED (pending client decision).
+PRODUCT_PARTS = {"HBM", "DRAM", "NAND", "LOGIC"}
 UNIT_COLS = ("production_unit_name", "production_unit_code", "production_unit_type", "primary_product_association")
 DATE_COLS = ("effective_from", "effective_to", "pit_available_from", "pit_available_to", "imagery_acquired_date")
 M = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
@@ -184,7 +186,9 @@ for i, (k, r) in enumerate(zip(expected, rows), start=2):
         issues.append(f"record_id {r['record_id']!r}")
     created.add(r["record_created_at"])
     for col, allowed in ENUMS.items():
-        if r[col] not in allowed:
+        parts = r[col].split("_")
+        combined = col == "primary_product_association" and len(parts) > 1 and set(parts) <= PRODUCT_PARTS
+        if r[col] not in allowed and not combined:
             issues.append(f"{col} {r[col]!r} not in code list")
     if r["imagery_acquired_date"] != "NULL" and r["imagery_acquired_date"] > r["record_created_at"][:10]:
         issues.append("imagery_acquired_date after record_created_at")
@@ -193,7 +197,7 @@ for i, (k, r) in enumerate(zip(expected, rows), start=2):
             issues.append(f"production_unit_code {r['production_unit_code']!r}")
         if r["production_unit_name"] != "NULL":
             pu_names.setdefault((cc, r["production_unit_name"]), set()).add(r["production_unit_code"])
-    elif any(r[c] != "NULL" for c in UNIT_COLS):
+    elif zt != "MX" and any(r[c] != "NULL" for c in UNIT_COLS):  # MX zones may carry unit/product values
         issues.append(f"{zt} zone must have NULL unit/product fields")
     report.append((r["record_id"], code, r["production_unit_name"], r["production_unit_code"], "PASS" if not issues else "FAIL"))
     errors.extend(f"row {i} {code}: {s}" for s in issues)

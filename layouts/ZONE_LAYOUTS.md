@@ -43,11 +43,11 @@ The KML also has an empty `SSE_CAN` (Cheonan) folder.
 
 **Value distribution (OP zones)**
 
-- `production_unit_type`: `FRONT_END_FAB` 14 · `PACKAGING_TEST` 5 · `NULL` 8
-- `primary_product_association`: `DRAM` 8 · `LOGIC` 5 · `UNKNOWN` 5 · `MIXED` 1 · `NULL` 8
-- The 8 `NULL` OP zones have no known unit yet (§8): `SKH_ICH_OP_02/03/05/06`, `SKH_CJJ_OP_01/02`, `SSE_PTK_OP_03/04`.
+- `production_unit_type`: `FRONT_END_FAB` 19 · `PACKAGING_TEST` 8
+- `primary_product_association`: `DRAM` 8 · `LOGIC` 5 · `UNKNOWN` 5 · `NAND` 3 · `HBM` 2 · `DRAM_NAND_LOGIC` 2 · `DRAM_NAND` 1 · `LOGIC_DRAM_NAND` 1
+- `SSE_PTK_MX_01` also carries unit and product values (`P4`, `HBM_DRAM_NAND`).
 
-**Other columns:** `zone_type_confidence` is `HIGH` 20 · `MEDIUM` 1 · `NULL` 32. `product_association_confidence` is `NULL` for every zone (no source yet).
+**Other columns:** `zone_type_confidence` is `HIGH` 29 · `MEDIUM` 1 · `NULL` 23. `product_association_confidence` is `HIGHLY_ASSOC` 23 · `NULL` 30.
 
 **Known data issues:** see §8.
 
@@ -75,12 +75,12 @@ Key: (`record_id`, `pit_available_from`). `record_id` alone is **not** unique (s
 | 5 | `campus_name` | VARCHAR(24) | Name of the semiconductor campus by location (from `CAMPUS_MASTER.md`) | `ICHEON` |
 | 6 | `campus_code` | VARCHAR(16) | Mandata-assigned identifier for the campus. Format `<company prefix>_<campus>` (`SKH` = SK hynix, `SSE` = Samsung) | `SKH_ICH` |
 | 7 | `campus_address` | VARCHAR(80) | Physical address of the semiconductor campus (from `CAMPUS_MASTER.md`) | `2091, Gyeongchung-daero, Bubal-eup, Icheon-si, Gyeonggi-do (17336)` |
-| 8 | `production_unit_name` | VARCHAR(40) | Display name of the production unit. OP only; `NULL` for EX and CD zones, and for OP zones whose unit isn't known yet | `M10` |
-| 9 | `production_unit_code` | VARCHAR(24) | Mandata-assigned identifier for the production unit. Format `<campus_code>_PU_<NNN>`. OP only; assigned once, never reused. Zones of the same named unit share one code (e.g. Giheung S1 spans `SSE_GHG_OP_02` and `OP_03`) | `SKH_ICH_PU_001` |
-| 10 | `production_unit_type` | VARCHAR(16) | Classification of the production unit. OP only. Values: `FRONT_END_FAB`, `PACKAGING_TEST`, `MIXED`, `UNKNOWN` | `FRONT_END_FAB` |
+| 8 | `production_unit_name` | VARCHAR(40) | Display name of the production unit. OP and MX only; `NULL` for EX and CD zones, and for OP zones whose unit isn't known yet | `M10` |
+| 9 | `production_unit_code` | VARCHAR(24) | Mandata-assigned identifier for the production unit. Format `<campus_code>_PU_<NNN>` (the MX zone uses `SSE_PTK_MX_001`). OP and MX only; assigned once, never reused. Zones of the same named unit share one code (e.g. Giheung S1 spans `SSE_GHG_OP_02` and `OP_03`) | `SKH_ICH_PU_001` |
+| 10 | `production_unit_type` | VARCHAR(16) | Classification of the production unit. OP and MX only. Values: `FRONT_END_FAB`, `PACKAGING_TEST`, `MIXED`, `UNKNOWN` | `FRONT_END_FAB` |
 | 11 | `zone_type` | VARCHAR(8) | High-level zone classification, equal to the third part of `zone_code`: `OP` = Operation, `EX` = Expansion, `CD` = Campus Division. The data also contains `MX` (undefined, see §8) | `OP` |
 | 12 | `zone_type_confidence` | VARCHAR(8) | Confidence of the zone-type classification. Values: `HIGH`, `MEDIUM`, `LOW` | `HIGH` |
-| 13 | `primary_product_association` | VARCHAR(16) | Primary product family associated with the zone; association does not represent direct production measurement. OP only. Values: `HBM`, `DRAM`, `NAND`, `LOGIC`, `MIXED`, `UNKNOWN` | `DRAM` |
+| 13 | `primary_product_association` | VARCHAR(16) | Primary product family associated with the zone; association does not represent direct production measurement. OP and MX only. Values: `HBM`, `DRAM`, `NAND`, `LOGIC`, `MIXED`, `UNKNOWN`, or for now `_`-joined combinations such as `DRAM_NAND_LOGIC` instead of `MIXED` (see §8) | `DRAM` |
 | 14 | `product_association_confidence` | VARCHAR(16) | Confidence of the product association. Values: `HIGHLY_ASSOC`, `ASSOC`, `UNCERTAIN` | `NULL` |
 | 15 | `effective_from` | DATE | Date from which this zone definition is valid in the real world | `2020-01-01` |
 | 16 | `effective_to` | DATE | Last date this zone definition is valid. `NULL` while currently valid | `NULL` |
@@ -295,11 +295,11 @@ SELECT zone_code FROM ft_list_zone WHERE NOT ST_IsValid(polygon);
 
 | # | Issue | Location | Owner |
 | --- | --- | --- | --- |
-| 1 | `zone_type` `MX` isn't in the client code list (OP / EX / CD). It's kept for now (`MX_HANDLING = "include"` in `src/build_zone_master.py`) | `SSE_PTK_MX_01` | TBD |
+| 1 | `zone_type` `MX` isn't in the client code list (OP / EX / CD). It's kept for now (`MX_HANDLING = "include"` in `src/build_zone_master.py`) and carries unit and product values like an OP zone | `SSE_PTK_MX_01` | TBD |
 | 2 | Backfill sets `pit_available_to` = `effective_to`, but `effective_to` is the zone's last valid day and the backtest rule excludes it (`as-of < pit_available_to`). A backfilled zone is therefore hidden on its last valid day. `effective_to` + 1 day would close the gap | 7 ended EX zones | TBD |
 | 3 | Backfill sets `pit_available_from` = `effective_from`, which breaks `record_created_at ≤ pit_available_from` and the MySQL `CHECK` (§7) | All rows | TBD |
-| 4 | 8 OP zones have `NULL` unit name, type and product (their codes were reassigned since the draft) | `SKH_ICH_OP_02/03/05/06`, `SKH_CJJ_OP_01/02`, `SSE_PTK_OP_03/04` | TBD |
-| 5 | `product_association_confidence` has no source and is `NULL` for every zone; `zone_type_confidence` is `NULL` for 32 zones | `ZONE_MASTER` | TBD |
+| 4 | `primary_product_association` uses combined values (`DRAM_NAND`, `DRAM_NAND_LOGIC`, `LOGIC_DRAM_NAND`, `HBM_DRAM_NAND`) that aren't in the client code list, which has only `MIXED`. Kept as written for now; `src/validate_zone_master.py` accepts `_`-joined combinations of `HBM`/`DRAM`/`NAND`/`LOGIC` | `SSE_PTK` OP and MX zones | TBD |
+| 5 | `zone_type_confidence` is `NULL` for 23 zones, and `product_association_confidence` for 30 | `ZONE_MASTER` | TBD |
 | 6 | Sheets `ZONE_BOUNDARY_MASTER`, `FT_LIST_ZONE` and `ZONE_OWNER_MASTER` still hold the old 34 zones; the build doesn't touch them | `ZONE_MASTER.xlsx` | TBD |
 | 7 | `SKH_CJJ_EX_02` and `SSE_PTK_EX_04` ended in 2026; if that's after the first client release, they aren't backfill and should follow the normal publishing rules | `ZONE_MASTER` | TBD |
 | 8 | `owner/` folder is empty; its purpose is undocumented | `layouts/` | TBD |
