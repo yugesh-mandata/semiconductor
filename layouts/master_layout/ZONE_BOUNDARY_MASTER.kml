@@ -47,7 +47,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -83,7 +83,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -276,7 +276,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -323,7 +323,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -775,13 +775,13 @@
 				<text><![CDATA[<!DOCTYPE html>
 <html>
   <h1>record_id: SSE_PTK_005</h1>
-  <h1>zone_code: SSE_PTK_MX_01</h1>
-  <h1>production_unit_name: P4</h1>
-  <h1>production_unit_code: SSE_PTK_MX_001</h1>
-  <h1>production_unit_type: FRONT_END_FAB</h1>
-  <h1>zone_type: MX</h1>
+  <h1>zone_code: SSE_PTK_OAE_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OAE</h1>
   <h1>zone_type_confidence: HIGH</h1>
-  <h1>primary_product_association: HBM_DRAM_NAND</h1>
+  <h1>primary_product_association: MIXED</h1>
   <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2026-07-01</h1>
   <h1>effective_to: NULL</h1>
@@ -996,7 +996,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -1092,7 +1092,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -1167,7 +1167,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -1720,7 +1720,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -1757,7 +1757,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -1890,7 +1890,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2077,7 +2077,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2124,7 +2124,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2161,7 +2161,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2235,7 +2235,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2272,7 +2272,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2308,7 +2308,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2345,7 +2345,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2462,13 +2462,13 @@
 				<text><![CDATA[<!DOCTYPE html>
 <html>
   <h1>record_id: SSE_PTK_005</h1>
-  <h1>zone_code: SSE_PTK_MX_01</h1>
-  <h1>production_unit_name: P4</h1>
-  <h1>production_unit_code: SSE_PTK_MX_001</h1>
-  <h1>production_unit_type: FRONT_END_FAB</h1>
-  <h1>zone_type: MX</h1>
+  <h1>zone_code: SSE_PTK_OAE_01</h1>
+  <h1>production_unit_name: NULL</h1>
+  <h1>production_unit_code: NULL</h1>
+  <h1>production_unit_type: NULL</h1>
+  <h1>zone_type: OAE</h1>
   <h1>zone_type_confidence: HIGH</h1>
-  <h1>primary_product_association: HBM_DRAM_NAND</h1>
+  <h1>primary_product_association: MIXED</h1>
   <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2026-07-01</h1>
   <h1>effective_to: NULL</h1>
@@ -2597,7 +2597,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -2964,7 +2964,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -3308,7 +3308,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -3440,7 +3440,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -3532,7 +3532,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -4017,7 +4017,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -4209,7 +4209,7 @@
   <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: NULL</h1>
   <h1>production_unit_type: NULL</h1>
-  <h1>zone_type: CD</h1>
+  <h1>zone_type: NULL</h1>
   <h1>zone_type_confidence: NULL</h1>
   <h1>primary_product_association: NULL</h1>
   <h1>product_association_confidence: NULL</h1>
@@ -5074,7 +5074,7 @@
 			</Polygon>
 		</Placemark>
 		<Placemark id="1FF170D2C5E4269514030">
-			<name>SSE_PTK_MX_01</name>
+			<name>SSE_PTK_OAE_01</name>
 			<styleUrl>#__managed_style_00F01BC9FD429D69587E</styleUrl>
 			<Polygon>
 				<outerBoundaryIs>

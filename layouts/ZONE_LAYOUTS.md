@@ -1,6 +1,6 @@
 # Semiconductor Zone Layouts — Knowledge Base
 
-> Last updated: 2026-10-22 · Maintainer: Mandata
+> Last updated: 2026-10-27 · Maintainer: Mandata
 
 ## 1. Purpose
 
@@ -15,7 +15,7 @@ This folder holds Mandata's geographic zone layouts for Korean semiconductor cam
 | `ZONE_LAYOUTS.md` | This knowledge base | Written by hand |
 | `CAMPUS_MASTER.md` | Company, ISIN, campus name and address per `campus_code` | Written by hand, with sources |
 | `master_layout/ZONE_BOUNDARY_MASTER.kml` | **Source of truth.** 53 zones: polygons, plus every per-zone value in each zone's Description (§6) | Google Earth export, edited in Google Earth |
-| `master_layout/ZONE_MASTER.xlsx` | Master zone table: `ZONE_MASTER` (53 rows) and `ZONE_LINEAGE_MASTER` (7 rows) are built from the KML. `ZONE_BOUNDARY_MASTER`, `FT_LIST_ZONE` and `ZONE_OWNER_MASTER` are older sheets (§8) | `src/build_zone_master.py` |
+| `master_layout/ZONE_MASTER.xlsx` | Master zone table: `ZONE_MASTER` (53 rows), `ZONE_LINEAGE_MASTER` (7 rows), `ZONE_OWNER_CARD_MASTER` (12 rows) and `ZONE_OWNER_FT_MASTER` (53 rows) are built from the KML. `ZONE_BOUNDARY_MASTER` and `FT_LIST_ZONE` are older sheets (§8) | `src/build_zone_master.py` |
 | `master_layout/ZONE_BOUNDARY_MASTER.zip` | The KML as a zipped PolygonZ shapefile (`zone_code`, `eff_from`, `eff_to`) | `src/kml_to_shp.py` |
 | `client/` | Client data-layout workbooks (`DEV_…_INFORMATION_<date>.xlsx`). The latest defines the target `FT_LIST_ZONE` layout and code lists | Client |
 | `owner/` | Empty | — |
@@ -26,18 +26,18 @@ This folder holds Mandata's geographic zone layouts for Korean semiconductor cam
 
 ### `master_layout`
 
-**Campuses and zone counts by `zone_type`**
+**Campuses and zone counts by `zone_type`** (CD = campus-division rows, which carry `zone_type` `NULL`)
 
-| `campus_code` | `campus_name` | OP | EX | CD | MX | Total |
+| `campus_code` | `campus_name` | OP | EX | OAE | CD | Total |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `SKH_ICH` | ICHEON | 6 | 1 | 1 | 0 | 8 |
-| `SKH_CJJ` | CHEONGJU | 4 | 3 | 5 | 0 | 12 |
-| `SKH_YIN` | YONGIN | 0 | 1 | 1 | 0 | 2 |
-| `SSE_GHG` | GIHEUNG | 3 | 0 | 1 | 0 | 4 |
-| `SSE_HWA` | HWASEONG | 6 | 1 | 1 | 0 | 8 |
-| `SSE_PTK` | PYEONGTAEK | 4 | 6 | 2 | 1 | 13 |
-| `SSE_ONY` | ONYANG | 4 | 1 | 1 | 0 | 6 |
-| **Total** | | **27** | **13** | **12** | **1** | **53** |
+| `SKH_ICH` | ICHEON | 6 | 1 | 0 | 1 | 8 |
+| `SKH_CJJ` | CHEONGJU | 4 | 3 | 0 | 5 | 12 |
+| `SKH_YIN` | YONGIN | 0 | 1 | 0 | 1 | 2 |
+| `SSE_GHG` | GIHEUNG | 3 | 0 | 0 | 1 | 4 |
+| `SSE_HWA` | HWASEONG | 6 | 1 | 0 | 1 | 8 |
+| `SSE_PTK` | PYEONGTAEK | 4 | 6 | 1 | 2 | 13 |
+| `SSE_ONY` | ONYANG | 4 | 1 | 0 | 1 | 6 |
+| **Total** | | **27** | **13** | **1** | **12** | **53** |
 
 The KML also has an empty `SSE_CAN` (Cheonan) folder.
 
@@ -45,7 +45,7 @@ The KML also has an empty `SSE_CAN` (Cheonan) folder.
 
 - `production_unit_type`: `FRONT_END_FAB` 19 · `PACKAGING_TEST` 8
 - `primary_product_association`: `DRAM` 8 · `LOGIC` 5 · `UNKNOWN` 5 · `NAND` 3 · `HBM` 2 · `DRAM_NAND_LOGIC` 2 · `DRAM_NAND` 1 · `LOGIC_DRAM_NAND` 1
-- `SSE_PTK_MX_01` also carries unit and product values (`P4`, `HBM_DRAM_NAND`).
+- `SSE_PTK_OAE_01` (Pyeongtaek P4) carries product `MIXED` and no unit values.
 
 **Other columns:** `zone_type_confidence` is `HIGH` 29 · `MEDIUM` 1 · `NULL` 23. `product_association_confidence` is `HIGHLY_ASSOC` 23 · `NULL` 30.
 
@@ -75,12 +75,12 @@ Key: (`record_id`, `pit_available_from`). `record_id` alone is **not** unique (s
 | 5 | `campus_name` | VARCHAR(24) | Name of the semiconductor campus by location (from `CAMPUS_MASTER.md`) | `ICHEON` |
 | 6 | `campus_code` | VARCHAR(16) | Mandata-assigned identifier for the campus. Format `<company prefix>_<campus>` (`SKH` = SK hynix, `SSE` = Samsung) | `SKH_ICH` |
 | 7 | `campus_address` | VARCHAR(80) | Physical address of the semiconductor campus (from `CAMPUS_MASTER.md`) | `2091, Gyeongchung-daero, Bubal-eup, Icheon-si, Gyeonggi-do (17336)` |
-| 8 | `production_unit_name` | VARCHAR(40) | Display name of the production unit. OP and MX only; `NULL` for EX and CD zones, and for OP zones whose unit isn't known yet | `M10` |
-| 9 | `production_unit_code` | VARCHAR(24) | Mandata-assigned identifier for the production unit. Format `<campus_code>_PU_<NNN>` (the MX zone uses `SSE_PTK_MX_001`). OP and MX only; assigned once, never reused. Zones of the same named unit share one code (e.g. Giheung S1 spans `SSE_GHG_OP_02` and `OP_03`) | `SKH_ICH_PU_001` |
-| 10 | `production_unit_type` | VARCHAR(16) | Classification of the production unit. OP and MX only. Values: `FRONT_END_FAB`, `PACKAGING_TEST`, `MIXED`, `UNKNOWN` | `FRONT_END_FAB` |
-| 11 | `zone_type` | VARCHAR(8) | High-level zone classification, equal to the third part of `zone_code`: `OP` = Operation, `EX` = Expansion, `CD` = Campus Division. The data also contains `MX` (undefined, see §8) | `OP` |
+| 8 | `production_unit_name` | VARCHAR(40) | Display name of the production unit. OP only; `NULL` for EX, OAE and CD zones, and for OP zones whose unit isn't known yet | `M10` |
+| 9 | `production_unit_code` | VARCHAR(24) | Mandata-assigned identifier for the production unit. Format `<campus_code>_PU_<NNN>`. OP only; assigned once, never reused. Zones of the same named unit share one code (e.g. Giheung S1 spans `SSE_GHG_OP_02` and `OP_03`) | `SKH_ICH_PU_001` |
+| 10 | `production_unit_type` | VARCHAR(16) | Classification of the production unit. OP only. Values: `FRONT_END_FAB`, `PACKAGING_TEST`, `MIXED`, `UNKNOWN` | `FRONT_END_FAB` |
+| 11 | `zone_type` | VARCHAR(8) | High-level zone classification, equal to the third part of `zone_code`: `OP` = Operation, `EX` = Expansion, `OAE` = Operation expansion. Campus-division rows keep `CD` in the code (`SKH_ICH_CD_01`) but carry `NULL` here, because a campus division is a level, not a zone type. Others (`OTH`) is calculated as CD − OP − EX − OAE and never stored | `OP` |
 | 12 | `zone_type_confidence` | VARCHAR(8) | Confidence of the zone-type classification. Values: `HIGH`, `MEDIUM`, `LOW` | `HIGH` |
-| 13 | `primary_product_association` | VARCHAR(16) | Primary product family associated with the zone; association does not represent direct production measurement. OP and MX only. Values: `HBM`, `DRAM`, `NAND`, `LOGIC`, `MIXED`, `UNKNOWN`, or for now `_`-joined combinations such as `DRAM_NAND_LOGIC` instead of `MIXED` (see §8) | `DRAM` |
+| 13 | `primary_product_association` | VARCHAR(16) | Primary product family associated with the zone; association does not represent direct production measurement. OP and OAE only (EX and CD `NULL` for now). Values: `HBM`, `DRAM`, `NAND`, `LOGIC`, `MIXED`, `UNKNOWN`, or for now `_`-joined combinations such as `DRAM_NAND_LOGIC` instead of `MIXED` (see §8) | `DRAM` |
 | 14 | `product_association_confidence` | VARCHAR(16) | Confidence of the product association. Values: `HIGHLY_ASSOC`, `ASSOC`, `UNCERTAIN` | `NULL` |
 | 15 | `effective_from` | DATE | Date from which this zone definition is valid in the real world | `2020-01-01` |
 | 16 | `effective_to` | DATE | Last date this zone definition is valid. `NULL` while currently valid | `NULL` |
@@ -94,16 +94,36 @@ Key: (`record_id`, `pit_available_from`). `record_id` alone is **not** unique (s
 
 **Why two separate date columns:** `imagery_acquired_date` describes the *evidence* (what the satellite saw, and when). `record_created_at` describes *our process* (when we wrote the row). They are often months apart, and clients need the imagery date to judge how fresh a boundary is.
 
+### `ZONE_OWNER_CARD_MASTER`
+
+Campus-division zones only: one row per current campus division in `ZONE_MASTER` (`CD` as the third part of `zone_code`, and `pit_available_to = NULL`), in `ZONE_MASTER` order. No database table yet.
+
+| # | Column | Type | Description | Example |
+| --- | --- | --- | --- | --- |
+| 1 | `zone_code` | VARCHAR(24) | `zone_code` from `ZONE_MASTER` | `SKH_ICH_CD_01` |
+| 2 | `polygon` | TEXT | `polygon` from `ZONE_MASTER` (raw KML coordinates) | `127.47929,37.25468,0 …` |
+
+### `ZONE_OWNER_FT_MASTER`
+
+The zone list for the foot-traffic data owner (KT): every zone in `ZONE_MASTER`, campus divisions and ended zones included, one row per `record_id` (its version with the latest `pit_available_from`), in `ZONE_MASTER` order. The effective dates say which period to extract for each zone. No database table yet.
+
+| # | Column | Type | Description | Example |
+| --- | --- | --- | --- | --- |
+| 1 | `zone_code` | VARCHAR(24) | `zone_code` from `ZONE_MASTER` | `SKH_ICH_EX_01` |
+| 2 | `effective_from` | DATE | `effective_from` from `ZONE_MASTER` | `2020-01-01` |
+| 3 | `effective_to` | DATE | `effective_to` from `ZONE_MASTER`; `NULL` while the zone is valid | `2021-06-30` |
+| 4 | `polygon` | TEXT | `polygon` from `ZONE_MASTER` (raw KML coordinates) | `127.4797427,37.2514443,0 …` |
+
 ### `ZONE_LINEAGE_MASTER`
 
-Records how zones evolve, so users can trace an expansion zone into the operating zones it became. Built from the KML (§6). Key: `lineage_id`.
+Records how zones evolve, so users can trace an expansion zone into the operating zones it became, and an operating zone through its operation-expansion (OAE) works. Built from the KML (§6). Key: `lineage_id`.
 
 | # | Column | Type | Definition | Example |
 | --- | --- | --- | --- | --- |
 | 1 | `lineage_id` | VARCHAR(40) | Unique identifier for a lineage record. Format `LIN_<campus>_<NNN>` | `LIN_ICH_001` |
-| 2 | `parent_record_id` | VARCHAR(40) | `record_id` of the EX zone that existed before the transition | `SKH_ICH_007` |
+| 2 | `parent_record_id` | VARCHAR(40) | `record_id` of the zone that existed before the transition: EX, OP or OAE | `SKH_ICH_007` |
 | 3 | `child_record_id` | VARCHAR(40) | `record_id` of the zone created by the transition | `SKH_ICH_005` |
-| 4 | `relationship_type` | VARCHAR(16) | `TRANSFORM` = one zone replaces the EX zone with an unchanged polygon. `SPLIT` = several zones replace it, inside its polygon | `TRANSFORM` |
+| 4 | `relationship_type` | VARCHAR(16) | `TRANSFORM` = one zone replaces the parent with an unchanged polygon (EX → OP, EX → OAE, OP → OAE, OAE → OP). `SPLIT` = several zones replace an EX zone, inside its polygon | `TRANSFORM` |
 | 5 | `effective_at` | DATE | Date the transition took effect: the child's `effective_from`; the parent's `effective_to` is the day before | `2021-07-01` |
 | 6 | `pit_available_from` | DATE | Date from which this lineage record became available to clients. Backfill: `effective_at` | `2021-07-01` |
 | 7 | `pit_available_to` | DATE | Date until which this lineage record version was available to clients. `NULL` while current | `NULL` |
@@ -122,6 +142,7 @@ Two time axes are tracked separately:
 | Change | `record_id` | Lineage row? | Case |
 | --- | --- | --- | --- |
 | Expansion completed (split or transform) | **New** | Yes | 1 |
+| OAE works start (OP → OAE) or end (OAE → OP), or an EX starts operating while construction continues in the same building (EX → OAE) | **New** | Yes (`TRANSFORM`) | 1 |
 | Value correction, column definition change, column added | **Same** | No | 2 |
 
 ### Date columns at a glance
@@ -219,7 +240,7 @@ git pull --no-rebase origin main
 .venv/bin/python src/validate_shp.py layouts/master_layout/ZONE_BOUNDARY_MASTER.kml
 ```
 
-- **What the build does:** it replaces `ZONE_MASTER` and `ZONE_LINEAGE_MASTER` and leaves the other sheets alone. It then runs `src/validate_zone_master.py`, which re-reads the KML and the workbook without sharing any code with the build.
+- **What the build does:** it replaces `ZONE_MASTER`, `ZONE_LINEAGE_MASTER`, `ZONE_OWNER_CARD_MASTER` and `ZONE_OWNER_FT_MASTER` and leaves the other sheets alone. It then runs `src/validate_zone_master.py`, which re-reads the KML and the workbook without sharing any code with the build.
 - **Before committing:** both validators must print `ALL CHECKS PASSED`, and you should read the build's `WARNING` lines.
 
 **Initial population (2026-10-22):** the 14 Description fields were generated once and written into the KML.
@@ -295,14 +316,17 @@ SELECT zone_code FROM ft_list_zone WHERE NOT ST_IsValid(polygon);
 
 | # | Issue | Location | Owner |
 | --- | --- | --- | --- |
-| 1 | `zone_type` `MX` isn't in the client code list (OP / EX / CD). It's kept for now (`MX_HANDLING = "include"` in `src/build_zone_master.py`) and carries unit and product values like an OP zone | `SSE_PTK_MX_01` | TBD |
 | 2 | Backfill sets `pit_available_to` = `effective_to`, but `effective_to` is the zone's last valid day and the backtest rule excludes it (`as-of < pit_available_to`). A backfilled zone is therefore hidden on its last valid day. `effective_to` + 1 day would close the gap | 7 ended EX zones | TBD |
 | 3 | Backfill sets `pit_available_from` = `effective_from`, which breaks `record_created_at ≤ pit_available_from` and the MySQL `CHECK` (§7) | All rows | TBD |
-| 4 | `primary_product_association` uses combined values (`DRAM_NAND`, `DRAM_NAND_LOGIC`, `LOGIC_DRAM_NAND`, `HBM_DRAM_NAND`) that aren't in the client code list, which has only `MIXED`. Kept as written for now; `src/validate_zone_master.py` accepts `_`-joined combinations of `HBM`/`DRAM`/`NAND`/`LOGIC` | `SSE_PTK` OP and MX zones | TBD |
+| 4 | `primary_product_association` uses combined values (`DRAM_NAND`, `DRAM_NAND_LOGIC`, `LOGIC_DRAM_NAND`) that aren't in the client code list, which has only `MIXED`. Kept as written for now; `src/validate_zone_master.py` accepts `_`-joined combinations of `HBM`/`DRAM`/`NAND`/`LOGIC` | `SSE_PTK` OP zones | TBD |
 | 5 | `zone_type_confidence` is `NULL` for 23 zones, and `product_association_confidence` for 30 | `ZONE_MASTER` | TBD |
-| 6 | Sheets `ZONE_BOUNDARY_MASTER`, `FT_LIST_ZONE` and `ZONE_OWNER_MASTER` still hold the old 34 zones; the build doesn't touch them | `ZONE_MASTER.xlsx` | TBD |
+| 6 | Sheets `ZONE_BOUNDARY_MASTER` and `FT_LIST_ZONE` still hold the old 34 zones; the build doesn't touch them | `ZONE_MASTER.xlsx` | TBD |
 | 7 | `SKH_CJJ_EX_02` and `SSE_PTK_EX_04` ended in 2026; if that's after the first client release, they aren't backfill and should follow the normal publishing rules | `ZONE_MASTER` | TBD |
 | 8 | `owner/` folder is empty; its purpose is undocumented | `layouts/` | TBD |
+
+**Resolved (2026-10-27)**
+
+- **Issue 1 (`zone_type` `MX`):** `SSE_PTK_MX_01` (Pyeongtaek P4) is now OAE, `SSE_PTK_OAE_01`: it started operating on 2026-07-01 while construction continues in the same building. Its unit fields are `NULL`, its product `HBM_DRAM_NAND` became `MIXED`, and `MX_HANDLING` was removed from the build. `record_id` `SSE_PTK_005` is unchanged (a correction), and the lineage row from `SSE_PTK_EX_04` is now EX → OAE.
 
 **Resolved (2026-10-22, with the 53-zone KML)**
 
@@ -322,6 +346,10 @@ SELECT zone_code FROM ft_list_zone WHERE NOT ST_IsValid(polygon);
 
 | Date | Change |
 | --- | --- |
+| 2026-10-27 | `ZONE_OWNER_FT_MASTER` is now built from `ZONE_MASTER`: all 53 zones with `zone_code`, `effective_from`, `effective_to` and `polygon`, replacing the old 34-zone list. Build and validator updated; added to §2, §4, §6, §8 |
+| 2026-10-27 | Campus-division rows: `zone_type` `CD` → `NULL` (12 rows); the code keeps `CD`, and the build and validator now find campus divisions by `zone_code`. `SSE_PTK_MX_01` → `SSE_PTK_OAE_01` (P4; open issue 1 resolved); `TRANSFORM` now also allows EX → OAE. Sheets renamed: `ZONE_SAMSUNG_CARD_MASTER` → `ZONE_OWNER_CARD_MASTER`, `ZONE_OWNER_MASTER` → `ZONE_OWNER_FT_MASTER`. Updated §2–§6, §8 |
+| 2026-10-26 | Lineage: `TRANSFORM` now also links OP → OAE and OAE → OP (unchanged polygon); `SPLIT` stays EX-only. Updated §4 (`zone_type`, lineage columns) and the §5 rule table; build and validator updated, validator accepts `zone_type` `OAE` |
+| 2026-10-22 | Added the built sheet `ZONE_SAMSUNG_CARD_MASTER` (`zone_code`, `polygon`, same names as `ZONE_MASTER`) for the 12 current CD zones; build and validator updated |
 | 2026-10-22 | Rebuilt for the 53-zone KML: the KML is now the source of truth, with per-zone values in each zone's Google Earth Description (§6). Updated folder map, inventory, schema (sheet column order, PU code format, client code lists, backfill rule for `pit_available_from/to`), lineage (`TRANSFORM` / `SPLIT`), open issues. Merged the separate build guide into §6 |
 | 2026-10-12 | Resolved open issue #10 (date columns applied to `ZONE_MASTER`: `record_created_at`, `imagery_acquired_date`); discarded #11 (multiple images / `imagery_source_id`) |
 | 2026-10-12 | Added `record_created_at` (replaces `recorded_at`) and `imagery_acquired_date` to `ZONE_MASTER`; added "Date columns at a glance" with date rules; updated Case 2, MySQL DDL and open issues #10–11 |

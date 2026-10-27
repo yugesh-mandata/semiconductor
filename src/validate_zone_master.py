@@ -2,6 +2,9 @@
 
 Reads the KML with regexes and the xlsx as raw XML (no openpyxl), so it shares no parsing code with
 build_zone_master.py. Compares the untouched sheets against the committed workbook (git HEAD).
+ZONE_OWNER_CARD_MASTER must hold zone_code and polygon for the current CD zones only.
+ZONE_OWNER_FT_MASTER must hold zone_code, effective_from, effective_to and polygon for every zone (latest version of
+each record_id).
 """
 import datetime as dt
 import io
@@ -24,9 +27,9 @@ DESCRIPTION_FIELDS = [
     "zone_type", "zone_type_confidence", "primary_product_association", "product_association_confidence",
     "effective_from", "effective_to", "pit_available_from", "pit_available_to", "imagery_acquired_date",
 ]
-# Client code list (layouts/client/DEV_..._20261021.xlsx, INFORMATION sheet), plus NULL.
+# Client code list (layouts/client/DEV_..._20261026.xlsx, INFORMATION sheet), plus NULL.
 ENUMS = {
-    "zone_type": {"OP", "EX", "CD", "MX"},  # MX pending confirmation
+    "zone_type": {"OP", "EX", "OAE", "NULL"},  # NULL only for campus divisions (checked per row)
     "production_unit_type": {"FRONT_END_FAB", "PACKAGING_TEST", "MIXED", "UNKNOWN", "NULL"},
     "primary_product_association": {"HBM", "DRAM", "NAND", "LOGIC", "MIXED", "UNKNOWN", "NULL"},
     "zone_type_confidence": {"HIGH", "MEDIUM", "LOW", "NULL"},
@@ -135,10 +138,21 @@ def poly(raw_coords):
 new = read_sheets((ROOT / XLSX_REL).read_bytes())
 old = read_sheets(subprocess.run(["git", "-C", str(ROOT), "show", f"HEAD:{XLSX_REL}"], capture_output=True, check=True).stdout)
 
-if list(new) != list(old):
-    err(f"sheet list changed: {list(old)} -> {list(new)}")
+CARD = "ZONE_OWNER_CARD_MASTER"
+FT = "ZONE_OWNER_FT_MASTER"
+BUILT = ("ZONE_MASTER", "ZONE_LINEAGE_MASTER", CARD, FT)
+# Sheets renamed by hand since the last commit (committed name -> current name); no-ops once committed.
+RENAMED = {"ZONE_SAMSUNG_CARD_MASTER": CARD, "ZONE_OWNER_MASTER": FT}
+old = {RENAMED.get(k, k): v for k, v in old.items()}
+expected_sheets = list(old)
+if CARD not in expected_sheets:  # first build that adds the sheet: right after ZONE_LINEAGE_MASTER
+    expected_sheets.insert(expected_sheets.index("ZONE_LINEAGE_MASTER") + 1, CARD)
+if FT not in expected_sheets:  # first build that adds the sheet: right after the card sheet
+    expected_sheets.insert(expected_sheets.index(CARD) + 1, FT)
+if sorted(new) != sorted(expected_sheets) or list(new)[:len(BUILT)] != list(BUILT):
+    err(f"sheet list {list(new)} != expected {expected_sheets} (built sheets first)")
 for name in old:
-    if name not in ("ZONE_MASTER", "ZONE_LINEAGE_MASTER") and old[name][1] != new.get(name, (None, None))[1]:
+    if name not in BUILT and old[name][1] != new.get(name, (None, None))[1]:
         err(f"sheet {name} values changed but should be untouched")
 
 dim, zm = new["ZONE_MASTER"]
@@ -152,8 +166,7 @@ if dim != f"A1:U{len(data) + 1}":
 rows = [dict(zip(header, r + [""] * (len(header) - len(r)))) for r in data]
 
 # ---- Row-by-row checks
-mx_skipped = len(rows) == len(kml) - sum(1 for k in kml if k["attrs"].get("zone_type") == "MX")
-expected = [k for k in kml if not (mx_skipped and k["attrs"].get("zone_type") == "MX")]
+expected = kml
 if len(rows) != len(expected):
     err(f"row count {len(rows)} != KML zones {len(expected)}")
 
@@ -168,8 +181,9 @@ for i, (k, r) in enumerate(zip(expected, rows), start=2):
             issues.append(f"{f} {r[f]!r} != KML {k['attrs'].get(f)!r}")
     if r["zone_code"] != code:
         issues.append(f"zone_code {r['zone_code']!r} (KML order)")
-    if r["zone_type"] != zt:
-        issues.append(f"zone_type {r['zone_type']!r} != code part {zt!r}")
+    want_type = "NULL" if zt == "CD" else zt  # CD is a level, not a zone type: zone_type NULL, code keeps CD
+    if r["zone_type"] != want_type:
+        issues.append(f"zone_type {r['zone_type']!r} != {want_type!r} (code part {zt!r})")
     if r["campus_code"] != cc or cc != k["folder"]:
         issues.append(f"campus_code {r['campus_code']!r} / folder {k['folder']!r}")
     for col in ("company_name_en", "security_code", "campus_name", "campus_address"):
@@ -197,7 +211,10 @@ for i, (k, r) in enumerate(zip(expected, rows), start=2):
             issues.append(f"production_unit_code {r['production_unit_code']!r}")
         if r["production_unit_name"] != "NULL":
             pu_names.setdefault((cc, r["production_unit_name"]), set()).add(r["production_unit_code"])
-    elif zt != "MX" and any(r[c] != "NULL" for c in UNIT_COLS):  # MX zones may carry unit/product values
+    elif zt == "OAE":  # OAE keeps a product association but has no production unit
+        if any(r[c] != "NULL" for c in UNIT_COLS[:3]):
+            issues.append("OAE zone must have NULL production unit fields")
+    elif any(r[c] != "NULL" for c in UNIT_COLS):
         issues.append(f"{zt} zone must have NULL unit/product fields")
     report.append((r["record_id"], code, r["production_unit_name"], r["production_unit_code"], "PASS" if not issues else "FAIL"))
     errors.extend(f"row {i} {code}: {s}" for s in issues)
@@ -215,6 +232,8 @@ if len(unnamed) != len(set(unnamed)) or set(unnamed) & named:
     err("an unnamed OP zone shares a production_unit_code")
 
 # ---- Lineage
+# Parent zone_type -> zone types it may become. OP and OAE parents only TRANSFORM. CD rows (NULL) never take part.
+LINEAGE_CHILDREN = {"EX": {"EX", "OP", "OAE"}, "OP": {"OAE"}, "OAE": {"OP"}}
 _, lm = new["ZONE_LINEAGE_MASTER"]
 lh = lm[0]
 lineage = [dict(zip(lh, r)) for r in lm[1:] if r]
@@ -226,8 +245,10 @@ for l in lineage:
         err(f"{tag}: unknown record_id")
         continue
     nxt = (dt.date.fromisoformat(p["effective_to"]) + dt.timedelta(days=1)).isoformat() if p["effective_to"] != "NULL" else None
-    if p["zone_type"] != "EX":
-        err(f"{tag}: parent {p['zone_code']} is not EX")
+    if p["zone_type"] not in LINEAGE_CHILDREN:
+        err(f"{tag}: parent {p['zone_code']} is not EX, OP or OAE")
+    elif LINEAGE_CHILDREN[p["zone_type"]] and c["zone_type"] not in LINEAGE_CHILDREN[p["zone_type"]]:
+        err(f"{tag}: {p['zone_type']} parent {p['zone_code']} cannot become {c['zone_type']}")
     if l["relationship_type"] != "TRANSFORM" or not poly(p["polygon"]).equals(poly(c["polygon"])):
         err(f"{tag}: expected TRANSFORM with identical polygons")
     if not (nxt == l["effective_at"] == c["effective_from"] == l["pit_available_from"]) or l["pit_available_to"] != "NULL":
@@ -236,16 +257,50 @@ for l in lineage:
         err(f"{tag}: lineage_id format")
 if len({l["lineage_id"] for l in lineage}) != len(lineage):
     err("lineage_id is not unique")
-# Every EX that ends with an identical successor starting the next day must be linked.
+# Every EX, OP or OAE that ends with an identical successor of an allowed type starting the next day must be linked.
 linked = {(l["parent_record_id"], l["child_record_id"]) for l in lineage}
 for p in rows:
-    if p["zone_type"] != "EX" or p["effective_to"] == "NULL":
+    if p["zone_type"] not in LINEAGE_CHILDREN or p["effective_to"] == "NULL":
         continue
     nxt = (dt.date.fromisoformat(p["effective_to"]) + dt.timedelta(days=1)).isoformat()
+    kinds = LINEAGE_CHILDREN[p["zone_type"]]
     for c in rows:
         if c is not p and c["campus_code"] == p["campus_code"] and c["effective_from"] == nxt \
+                and (kinds is None or c["zone_type"] in kinds) \
                 and poly(p["polygon"]).equals(poly(c["polygon"])) and (p["record_id"], c["record_id"]) not in linked:
             err(f"missing lineage {p['zone_code']} -> {c['zone_code']}")
+
+# ---- ZONE_OWNER_CARD_MASTER
+card_dim, card = new.get(CARD, (None, [[]]))
+card_rows = [r for r in card[1:] if r]
+want = [[r["zone_code"], r["polygon"]] for r in rows if r["zone_code"].split("_")[2] == "CD" and r["pit_available_to"] == "NULL"]
+if card[0] != ["zone_code", "polygon"]:
+    err(f"{CARD} header {card[0]} != ['zone_code', 'polygon']")
+if card_rows != want:
+    err(f"{CARD}: {len(card_rows)} rows do not match the {len(want)} current CD zones in ZONE_MASTER")
+if len(card) - 1 != len(card_rows) or card_dim != f"A1:B{len(card_rows) + 1}":
+    err(f"{CARD} dimension {card_dim} / empty rows")
+if len({r[0] for r in card_rows}) != len(card_rows):
+    err(f"{CARD}: zone_code is not unique")
+if any(not r[0].split("_")[2] == "CD" for r in card_rows):
+    err(f"{CARD}: non-CD zone_code present")
+
+# ---- ZONE_OWNER_FT_MASTER: every zone, latest version per record_id, in ZONE_MASTER order
+FT_HEADER = ["zone_code", "effective_from", "effective_to", "polygon"]
+ft_dim, ft = new.get(FT, (None, [[]]))
+ft_rows = [r for r in ft[1:] if r]
+newest = {}
+for r in rows:
+    newest[r["record_id"]] = max(newest.get(r["record_id"], ""), r["pit_available_from"])
+want_ft = [[r[c] for c in FT_HEADER] for r in rows if r["pit_available_from"] == newest[r["record_id"]]]
+if ft[0] != FT_HEADER:
+    err(f"{FT} header {ft[0]} != {FT_HEADER}")
+if ft_rows != want_ft:
+    err(f"{FT}: {len(ft_rows)} rows do not match the {len(want_ft)} zones in ZONE_MASTER")
+if len(ft) - 1 != len(ft_rows) or ft_dim != f"A1:D{len(ft_rows) + 1}":
+    err(f"{FT} dimension {ft_dim} / empty rows")
+if len({r[0] for r in ft_rows}) != len(ft_rows):
+    err(f"{FT}: zone_code is not unique")
 
 # ---- Report
 size = (ROOT / XLSX_REL).stat().st_size
@@ -254,7 +309,7 @@ if size > 100_000:
 print(f"{'record_id':<13}{'zone_code':<16}{'unit':<10}{'unit_code':<16}result")
 for row in report:
     print(f"{row[0]:<13}{row[1]:<16}{row[2]:<10}{row[3]:<16}{row[4]}")
-print(f"\nzones: {len(rows)}   lineage rows: {len(lineage)}   size: {size:,} bytes")
+print(f"\nzones: {len(rows)}   lineage rows: {len(lineage)}   {CARD}: {len(card_rows)}   {FT}: {len(ft_rows)}   size: {size:,} bytes")
 if errors:
     print(f"\nFAILED with {len(errors)} error(s):")
     for e in errors:

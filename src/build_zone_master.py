@@ -1,4 +1,6 @@
-"""Rebuild the ZONE_MASTER and ZONE_LINEAGE_MASTER sheets of ZONE_MASTER.xlsx from ZONE_BOUNDARY_MASTER.kml.
+"""Rebuild the ZONE_MASTER, ZONE_LINEAGE_MASTER, ZONE_OWNER_CARD_MASTER and ZONE_OWNER_FT_MASTER sheets of
+ZONE_MASTER.xlsx
+from ZONE_BOUNDARY_MASTER.kml.
 
 Sources:
 - KML (source of truth): zone list and order, polygons, and every per-zone value as <h1>field: value</h1>
@@ -28,10 +30,6 @@ ROOT = Path(__file__).resolve().parent.parent
 XLSX_PATH = ROOT / "layouts/master_layout/ZONE_MASTER.xlsx"
 CAMPUS_MD = ROOT / "layouts/CAMPUS_MASTER.md"
 
-# SSE_PTK_MX_01 uses zone type MX, which is not in the client code list (OP / EX / CD).
-# "include" keeps the row with zone_type MX; "skip" leaves it out. Pending confirmation.
-MX_HANDLING = "include"
-
 NULL = "NULL"
 
 # Per-zone values stored in each zone's Description, in this order.
@@ -48,6 +46,20 @@ COLUMNS = [
     "effective_from", "effective_to", "pit_available_from", "pit_available_to", "imagery_acquired_date",
     "record_created_at", "polygon",
 ]
+
+# ZONE_OWNER_CARD_MASTER: current campus-division (CD) zones only, with ZONE_MASTER's column names.
+CARD_SHEET = "ZONE_OWNER_CARD_MASTER"
+CARD_COLUMNS = ["zone_code", "polygon"]
+
+# ZONE_OWNER_FT_MASTER: every zone, latest version of each record_id (ended zones included), for the
+# foot-traffic data owner (KT), with ZONE_MASTER's column names.
+FT_SHEET = "ZONE_OWNER_FT_MASTER"
+FT_COLUMNS = ["zone_code", "effective_from", "effective_to", "polygon"]
+
+
+def is_cd(row):
+    """Campus divisions are a level, not a zone type: zone_type is NULL and the zone_code keeps CD (SKH_ICH_CD_01)."""
+    return row["zone_code"].split("_")[2] == "CD"
 
 
 def read_kml(kml_path):
@@ -104,10 +116,6 @@ def build_rows(zones, campuses, created_at):
         campus_code = "_".join(code.split("_")[:2])
         if campus_code != z["folder"]:
             sys.exit(f"{code}: campus {campus_code} != KML folder {z['folder']}")
-        if z["attrs"]["zone_type"] == "MX":
-            notes.append(f"{code}: zone_type MX is not in the client code list; MX_HANDLING={MX_HANDLING!r} (pending)")
-            if MX_HANDLING == "skip":
-                continue
         campus = campuses[campus_code]
         row = {f: z["attrs"][f] for f in DESCRIPTION_FIELDS}
         row.update(
@@ -123,27 +131,37 @@ def build_rows(zones, campuses, created_at):
     return rows, notes
 
 
+# Lineage parent zone_type -> zone types it may become. Only EX parents may SPLIT (an unfinished remainder stays EX).
+# CD rows (zone_type NULL) are never parents or children.
+LINEAGE_CHILDREN = {"EX": {"EX", "OP", "OAE"}, "OP": {"OAE"}, "OAE": {"OP"}}
+
+
 def build_lineage(rows):
-    """TRANSFORM: an EX zone ends and a zone with the identical polygon starts the next day in the same campus.
-    SPLIT: several such zones start the next day inside the EX polygon."""
+    """TRANSFORM: a zone ends and one zone with the identical polygon starts the next day in the same campus
+    (EX -> OP when operation starts, EX -> OAE when operation starts while construction continues in the same
+    building, OP -> OAE when works start on top of an operating building, OAE -> OP when they end).
+    SPLIT: several zones start the next day inside an EX polygon."""
     lineage, notes, seq = [], [], {}
     for parent in rows:
-        if parent["zone_type"] != "EX" or parent["effective_to"] == NULL:
+        ptype = parent["zone_type"]
+        if ptype not in LINEAGE_CHILDREN or parent["effective_to"] == NULL:
             continue
+        allowed = LINEAGE_CHILDREN[ptype]
         next_day = (dt.date.fromisoformat(parent["effective_to"]) + dt.timedelta(days=1)).isoformat()
         ppoly = ring_polygon(parent["polygon"])
         kids = [
             r for r in rows
-            if r is not parent and r["campus_code"] == parent["campus_code"] and r["zone_type"] != "CD"
+            if r is not parent and r["campus_code"] == parent["campus_code"] and r["zone_type"] in allowed
             and r["effective_from"] == next_day
             and ppoly.buffer(1e-7).contains(ring_polygon(r["polygon"]))
         ]
         if len(kids) == 1 and ring_polygon(kids[0]["polygon"]).equals(ppoly):
             rel = "TRANSFORM"
-        elif len(kids) > 1:
+        elif len(kids) > 1 and ptype == "EX":
             rel = "SPLIT"
         else:
-            notes.append(f"{parent['zone_code']}: ends {parent['effective_to']} but no successor zone found")
+            if ptype != "OP" or kids:  # an OP zone may simply close
+                notes.append(f"{parent['zone_code']}: ends {parent['effective_to']} but no valid successor zone found")
             continue
         for kid in kids:
             short = parent["campus_code"].split("_")[1]
@@ -197,6 +215,38 @@ def write_lineage(wb, lineage):
         ws.append([r[c] for c in header])
 
 
+def write_copy_sheet(wb, sheet, columns, rows, after):
+    """Replace `sheet` (or create it right after `after`) with `columns` of `rows`, styled like ZONE_MASTER."""
+    if sheet in wb.sheetnames:
+        index = wb.sheetnames.index(sheet)
+        wb.remove(wb[sheet])
+    else:
+        index = wb.sheetnames.index(after) + 1
+    ws = wb.create_sheet(sheet, index)
+    zm = wb["ZONE_MASTER"]
+    src = {c.value: c for c in zm[1]}
+    for col, name in enumerate(columns, start=1):
+        s = src[name]
+        cell = ws.cell(row=1, column=col, value=name)
+        cell.font, cell.fill, cell.border = copy(s.font), copy(s.fill), copy(s.border)
+        cell.alignment, cell.number_format = copy(s.alignment), s.number_format
+        ws.column_dimensions[cell.column_letter].width = zm.column_dimensions[s.column_letter].width
+    ws.row_dimensions[1].height = zm.row_dimensions[1].height
+    for r in rows:
+        ws.append([r[c] for c in columns])
+    ws.freeze_panes = "A2"
+    return len(rows)
+
+
+def latest_versions(rows):
+    """One row per record_id: the version with the latest pit_available_from, in ZONE_MASTER order."""
+    latest = {}
+    for r in rows:
+        if r["record_id"] not in latest or r["pit_available_from"] > latest[r["record_id"]]["pit_available_from"]:
+            latest[r["record_id"]] = r
+    return [r for r in rows if latest[r["record_id"]] is r]
+
+
 def main(kml_path):
     zones = read_kml(kml_path)
     campuses = read_campus_master(CAMPUS_MD)
@@ -208,6 +258,9 @@ def main(kml_path):
     wb = load_workbook(XLSX_PATH)
     write_zone_master(wb, rows)
     write_lineage(wb, lineage)
+    n_card = write_copy_sheet(wb, CARD_SHEET, CARD_COLUMNS,
+                              [r for r in rows if is_cd(r) and r["pit_available_to"] == NULL], "ZONE_LINEAGE_MASTER")
+    n_ft = write_copy_sheet(wb, FT_SHEET, FT_COLUMNS, latest_versions(rows), CARD_SHEET)
     wb.save(XLSX_PATH)
 
     print(f"{'record_id':<13}{'zone_code':<16}{'unit':<10}{'unit_code':<16}{'type':<16}{'product':<9}conf")
@@ -217,7 +270,8 @@ def main(kml_path):
     print()
     for l in lineage:
         print(f"{l['lineage_id']:<13}{l['relationship_type']:<10}{l['effective_at']}  {l['_pair']}")
-    print(f"\nWrote {len(rows)} zones and {len(lineage)} lineage rows to {XLSX_PATH}")
+    print(f"\nWrote {len(rows)} zones, {len(lineage)} lineage rows, {n_card} {CARD_SHEET} rows and {n_ft} {FT_SHEET} "
+          f"rows to {XLSX_PATH}")
     for n in notes + lineage_notes:
         print("WARNING:", n)
 
