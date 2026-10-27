@@ -14,8 +14,8 @@ This folder holds Mandata's geographic zone layouts for Korean semiconductor cam
 | --- | --- | --- |
 | `ZONE_LAYOUTS.md` | This knowledge base | Written by hand |
 | `CAMPUS_MASTER.md` | Company, ISIN, campus name and address per `campus_code` | Written by hand, with sources |
-| `master_layout/ZONE_BOUNDARY_MASTER.kml` | **Source of truth.** 53 zones: polygons, plus every per-zone value in each zone's Description (§6) | Google Earth export, edited in Google Earth |
-| `master_layout/ZONE_MASTER.xlsx` | Master zone table: `ZONE_MASTER` (53 rows), `ZONE_LINEAGE_MASTER` (7 rows), `ZONE_OWNER_CARD_MASTER` (12 rows) and `ZONE_OWNER_FT_MASTER` (53 rows) are built from the KML. `ZONE_BOUNDARY_MASTER` and `FT_LIST_ZONE` are older sheets (§8) | `src/build_zone_master.py` |
+| `master_layout/ZONE_BOUNDARY_MASTER.kml` | **Source of truth.** 56 zones: polygons, plus every per-zone value in each zone's Description (§6) | Google Earth export, edited in Google Earth |
+| `master_layout/ZONE_MASTER.xlsx` | Master zone table: `ZONE_MASTER` (56 rows), `ZONE_LINEAGE_MASTER` (7 rows), `ZONE_OWNER_CARD_MASTER` (13 rows) and `ZONE_OWNER_FT_MASTER` (56 rows) are built from the KML. `ZONE_BOUNDARY_MASTER` and `FT_LIST_ZONE` are older sheets (§8) | `src/build_zone_master.py` |
 | `master_layout/ZONE_BOUNDARY_MASTER.zip` | The KML as a zipped PolygonZ shapefile (`zone_code`, `eff_from`, `eff_to`) | `src/kml_to_shp.py` |
 | `client/` | Client data-layout workbooks (`DEV_…_INFORMATION_<date>.xlsx`). The latest defines the target `FT_LIST_ZONE` layout and code lists | Client |
 | `owner/` | Empty | — |
@@ -37,17 +37,16 @@ This folder holds Mandata's geographic zone layouts for Korean semiconductor cam
 | `SSE_HWA` | HWASEONG | 6 | 1 | 0 | 1 | 8 |
 | `SSE_PTK` | PYEONGTAEK | 4 | 6 | 1 | 2 | 13 |
 | `SSE_ONY` | ONYANG | 4 | 1 | 0 | 1 | 6 |
-| **Total** | | **27** | **13** | **1** | **12** | **53** |
-
-The KML also has an empty `SSE_CAN` (Cheonan) folder.
+| `SSE_CAN` | CHEONAN | 2 | 0 | 0 | 1 | 3 |
+| **Total** | | **29** | **13** | **1** | **13** | **56** |
 
 **Value distribution (OP zones)**
 
-- `production_unit_type`: `FRONT_END_FAB` 19 · `PACKAGING_TEST` 8
-- `primary_product_association`: `DRAM` 8 · `LOGIC` 5 · `UNKNOWN` 5 · `NAND` 3 · `HBM` 2 · `DRAM_NAND_LOGIC` 2 · `DRAM_NAND` 1 · `LOGIC_DRAM_NAND` 1
+- `production_unit_type`: `FRONT_END_FAB` 19 · `PACKAGING_TEST` 10
+- `primary_product_association`: `DRAM` 8 · `LOGIC` 5 · `UNKNOWN` 5 · `NAND` 3 · `HBM` 2 · `DRAM_NAND_LOGIC` 2 · `NULL` 2 · `DRAM_NAND` 1 · `LOGIC_DRAM_NAND` 1
 - `SSE_PTK_OAE_01` (Pyeongtaek P4) carries product `MIXED` and no unit values.
 
-**Other columns:** `zone_type_confidence` is `HIGH` 29 · `MEDIUM` 1 · `NULL` 23. `product_association_confidence` is `HIGHLY_ASSOC` 23 · `NULL` 30.
+**Other columns:** `zone_type_confidence` is `HIGH` 29 · `LOW` 2 · `MEDIUM` 1 · `NULL` 24. `product_association_confidence` is `HIGHLY_ASSOC` 23 · `NULL` 33.
 
 **Known data issues:** see §8.
 
@@ -319,10 +318,11 @@ SELECT zone_code FROM ft_list_zone WHERE NOT ST_IsValid(polygon);
 | 2 | Backfill sets `pit_available_to` = `effective_to`, but `effective_to` is the zone's last valid day and the backtest rule excludes it (`as-of < pit_available_to`). A backfilled zone is therefore hidden on its last valid day. `effective_to` + 1 day would close the gap | 7 ended EX zones | TBD |
 | 3 | Backfill sets `pit_available_from` = `effective_from`, which breaks `record_created_at ≤ pit_available_from` and the MySQL `CHECK` (§7) | All rows | TBD |
 | 4 | `primary_product_association` uses combined values (`DRAM_NAND`, `DRAM_NAND_LOGIC`, `LOGIC_DRAM_NAND`) that aren't in the client code list, which has only `MIXED`. Kept as written for now; `src/validate_zone_master.py` accepts `_`-joined combinations of `HBM`/`DRAM`/`NAND`/`LOGIC` | `SSE_PTK` OP zones | TBD |
-| 5 | `zone_type_confidence` is `NULL` for 23 zones, and `product_association_confidence` for 30 | `ZONE_MASTER` | TBD |
+| 5 | `zone_type_confidence` is `NULL` for 24 zones, and `product_association_confidence` for 33 | `ZONE_MASTER` | TBD |
 | 6 | Sheets `ZONE_BOUNDARY_MASTER` and `FT_LIST_ZONE` still hold the old 34 zones; the build doesn't touch them | `ZONE_MASTER.xlsx` | TBD |
 | 7 | `SKH_CJJ_EX_02` and `SSE_PTK_EX_04` ended in 2026; if that's after the first client release, they aren't backfill and should follow the normal publishing rules | `ZONE_MASTER` | TBD |
 | 8 | `owner/` folder is empty; its purpose is undocumented | `layouts/` | TBD |
+| 9 | The Cheonan OP zones have unit codes but no unit name, and `primary_product_association` `NULL`, which isn't in the client code list (`UNKNOWN` is). Their `zone_type_confidence` is `LOW` | `SSE_CAN_OP_01`, `SSE_CAN_OP_02` | TBD |
 
 **Resolved (2026-10-27)**
 
@@ -346,6 +346,7 @@ SELECT zone_code FROM ft_list_zone WHERE NOT ST_IsValid(polygon);
 
 | Date | Change |
 | --- | --- |
+| 2026-10-27 | Added the Cheonan campus `SSE_CAN`: `SSE_CAN_OP_01`, `SSE_CAN_OP_02` (packaging and test) and `SSE_CAN_CD_01` (`zone_type` `NULL`). Now 56 zones. Updated §2, §3 and §8 (new issue 9) |
 | 2026-10-27 | `ZONE_OWNER_FT_MASTER` is now built from `ZONE_MASTER`: all 53 zones with `zone_code`, `effective_from`, `effective_to` and `polygon`, replacing the old 34-zone list. Build and validator updated; added to §2, §4, §6, §8 |
 | 2026-10-27 | Campus-division rows: `zone_type` `CD` → `NULL` (12 rows); the code keeps `CD`, and the build and validator now find campus divisions by `zone_code`. `SSE_PTK_MX_01` → `SSE_PTK_OAE_01` (P4; open issue 1 resolved); `TRANSFORM` now also allows EX → OAE. Sheets renamed: `ZONE_SAMSUNG_CARD_MASTER` → `ZONE_OWNER_CARD_MASTER`, `ZONE_OWNER_MASTER` → `ZONE_OWNER_FT_MASTER`. Updated §2–§6, §8 |
 | 2026-10-26 | Lineage: `TRANSFORM` now also links OP → OAE and OAE → OP (unchanged polygon); `SPLIT` stays EX-only. Updated §4 (`zone_type`, lineage columns) and the §5 rule table; build and validator updated, validator accepts `zone_type` `OAE` |
