@@ -59,7 +59,7 @@
 <html>
   <h1>record_id: SSE_CAN_001</h1>
   <h1>zone_code: SSE_CAN_OP_01</h1>
-  <h1>production_unit_name: UNKNOWN</h1>
+  <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: SSE_CAN_PU_001</h1>
   <h1>production_unit_type: PACKAGING_TEST</h1>
   <h1>zone_type: OP</h1>
@@ -826,7 +826,7 @@
   <h1>zone_type: MX</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: HBM_DRAM_NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2026-07-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2026-07-01</h1>
@@ -862,7 +862,7 @@
   <h1>zone_type: MX</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: HBM_DRAM_NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2026-07-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2026-07-01</h1>
@@ -944,7 +944,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM_NAND_LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2022-09-07</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2022-09-07</h1>
@@ -980,7 +980,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC_DRAM_NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2021-07-01</h1>
@@ -1017,7 +1017,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM_NAND_LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-08-30</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-08-30</h1>
@@ -1064,7 +1064,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM_NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1100,7 +1100,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM_NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1157,7 +1157,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM_NAND_LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2022-09-07</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2022-09-07</h1>
@@ -1313,7 +1313,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM_NAND_LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-08-30</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-08-30</h1>
@@ -1350,7 +1350,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1397,7 +1397,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC_DRAM_NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2021-07-01</h1>
@@ -1517,7 +1517,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-02-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-02-01</h1>
@@ -1563,7 +1563,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1635,7 +1635,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1692,7 +1692,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1728,7 +1728,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1764,7 +1764,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -1838,7 +1838,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2021-07-01</h1>
@@ -1874,7 +1874,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2087,7 +2087,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2124,7 +2124,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2310,7 +2310,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2405,7 +2405,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2508,7 +2508,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2554,7 +2554,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-02-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-02-01</h1>
@@ -2750,7 +2750,7 @@
 <html>
   <h1>record_id: SSE_CAN_002</h1>
   <h1>zone_code: SSE_CAN_OP_02</h1>
-  <h1>production_unit_name: UNKNOWN</h1>
+  <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: SSE_CAN_PU_002</h1>
   <h1>production_unit_type: PACKAGING_TEST</h1>
   <h1>zone_type: OP</h1>
@@ -2829,7 +2829,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2912,7 +2912,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2026-02-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2026-02-01</h1>
@@ -2948,7 +2948,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -2985,7 +2985,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3022,7 +3022,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3124,7 +3124,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2021-07-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2021-07-01</h1>
@@ -3208,7 +3208,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3301,7 +3301,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3374,7 +3374,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: HBM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3405,7 +3405,7 @@
 <html>
   <h1>record_id: SSE_CAN_001</h1>
   <h1>zone_code: SSE_CAN_OP_01</h1>
-  <h1>production_unit_name: UNKNOWN</h1>
+  <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: SSE_CAN_PU_001</h1>
   <h1>production_unit_type: PACKAGING_TEST</h1>
   <h1>zone_type: OP</h1>
@@ -3557,7 +3557,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2026-02-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2026-02-01</h1>
@@ -3835,7 +3835,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3872,7 +3872,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: LOGIC</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -3991,7 +3991,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: NAND</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4068,7 +4068,7 @@
 <html>
   <h1>record_id: SSE_CAN_002</h1>
   <h1>zone_code: SSE_CAN_OP_02</h1>
-  <h1>production_unit_name: UNKNOWN</h1>
+  <h1>production_unit_name: NULL</h1>
   <h1>production_unit_code: SSE_CAN_PU_002</h1>
   <h1>production_unit_type: PACKAGING_TEST</h1>
   <h1>zone_type: OP</h1>
@@ -4121,7 +4121,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: HBM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4157,7 +4157,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4334,7 +4334,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4380,7 +4380,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4473,7 +4473,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: HBM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4583,7 +4583,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4656,7 +4656,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: HBM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
@@ -4693,7 +4693,7 @@
   <h1>zone_type: OP</h1>
   <h1>zone_type_confidence: HIGH</h1>
   <h1>primary_product_association: DRAM</h1>
-  <h1>product_association_confidence: HIGH</h1>
+  <h1>product_association_confidence: HIGHLY_ASSOC</h1>
   <h1>effective_from: 2020-01-01</h1>
   <h1>effective_to: NULL</h1>
   <h1>pit_available_from: 2020-01-01</h1>
